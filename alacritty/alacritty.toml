@@ -3,3 +3,22 @@ opacity = 0.6
 
 [font]
 size = 13
+
+[font.normal]
+family = "SauceCodeProNerdFont"
+style = "Regular"
+
+[font.italic]
+family = "SauceCodeProNerdFont"
+style = "Italic"
+
+[font.bold_italic]
+family = "SauceCodeProNerdFont"
+style = "Bold Italic"
+
+[font.bold]
+family = "SauceCodeProNerdFont"
+style = "Bold"
+
+[general]
+import = ["/home/shota/.config/alacritty/themes/blood-moon.toml"]
