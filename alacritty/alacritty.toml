@@ -1,6 +1,6 @@
 [window]
 opacity = 0.6
-
+dimensions = { columns = 105, lines = 30}
 [font]
 size = 13
 
