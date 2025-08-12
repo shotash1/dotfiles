@@ -1,0 +1,48 @@
+Sun Aug 10 08:48:09 AM JST 2025 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '0'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - initAID - Set AID to PLACEHOLDERAID '31337'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/shota/.local/share/Steam/steamapps/compatdata/0'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLangFile - Language from command line is 'english'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLangFile - Loading found system wide /usr/share/steamtinkerlaunch/lang//english.txt
+Sun Aug 10 08:48:09 AM JST 2025 INFO - getCurrentCommandline - No Proton in command line arguments 'run /home/shota/.local/share/Steam/ubuntu12_32/../bin/d3ddriverquery64.exe -d3d12'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - saveOrgVars - Storing some original variables to restore them later
+Sun Aug 10 08:48:09 AM JST 2025 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Sun Aug 10 08:48:09 AM JST 2025 INFO - emptyVars - Set $PATH to '/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:'
+Sun Aug 10 08:48:09 AM JST 2025 START - ######### Initializing Game Launch 31337 using SteamTinkerLaunch v12.12 #########
+Sun Aug 10 08:48:09 AM JST 2025 INFO - main - Starting with a clean log
+Sun Aug 10 08:48:09 AM JST 2025 INFO - main - Start creating default configs
+Sun Aug 10 08:48:09 AM JST 2025 INFO - createDefaultCfgs - START
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLangFile - Language from command line is 'english'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLangFile - Loading found system wide /usr/share/steamtinkerlaunch/lang/english.txt
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLanguage - Loading STLLANG from '/home/shota/.config/steamtinkerlaunch/global.conf'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - loadLanguage - STLLANG from '/home/shota/.config/steamtinkerlaunch/global.conf' is 'english'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - createDefaultCfgs - setSteamPaths:
+Sun Aug 10 08:48:09 AM JST 2025 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - getGameOS - Starting game OS detection
+Sun Aug 10 08:48:09 AM JST 2025 WARN - getGameOS - Could not extract the full game binary path from the incoming game launch command, so assuming this is a Windows game!
+Sun Aug 10 08:48:09 AM JST 2025 INFO - setWin - '' determined to be a Windows Game
+Sun Aug 10 08:48:09 AM JST 2025 INFO - createDefaultCfgs - createProtonList:
+Sun Aug 10 08:48:09 AM JST 2025 INFO - createDefaultCfgs - createProtonList end
+Sun Aug 10 08:48:09 AM JST 2025 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Sun Aug 10 08:48:09 AM JST 2025 INFO - createDefaultCfgs - STOP
+Sun Aug 10 08:48:09 AM JST 2025 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/shota/.local/share/Steam/steamapps'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64:/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared:/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64:/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared:/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - main - Checking internal dependencies:
+Sun Aug 10 08:48:09 AM JST 2025 INFO - setAwkBin - Found 'gawk' as an 'awk' variant. It should work without any issues, because 'gawk' was tested completely
+Sun Aug 10 08:48:09 AM JST 2025 INFO - checkIntDeps - Result of version check for yad binary '/sbin/yad' is '14.1'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - main - Initializing first Proton:
+Sun Aug 10 08:48:09 AM JST 2025 INFO - initOldProtonArr - Creating an initial array with available Proton versions using the file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt' which was created during a previous run
+Sun Aug 10 08:48:09 AM JST 2025 INFO - initFirstProton - Initializing Proton
+Sun Aug 10 08:48:09 AM JST 2025 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/shota/.config/steamtinkerlaunch/default_template.conf' is 'GE-Proton10-10'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - main - Initializing default window resolution
+Sun Aug 10 08:48:09 AM JST 2025 INFO - setInitWinXY - Using '1920x1080' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - main - Welcome to SteamTinkerLaunch
+Sun Aug 10 08:48:09 AM JST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/shota/.config/steamtinkerlaunch/games/appinfo'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/shota/.config/steamtinkerlaunch/games/header'
+Sun Aug 10 08:48:09 AM JST 2025 INFO - main - Checking command line: incoming arguments 'run /home/shota/.local/share/Steam/ubuntu12_32/../bin/d3ddriverquery64.exe -d3d12'

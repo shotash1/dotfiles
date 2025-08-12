@@ -1,0 +1,377 @@
+Sat Aug  2 08:14:24 JST 2025 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '0'
+Sat Aug  2 08:14:24 JST 2025 INFO - initAID - Set AID from STEAM_COMPAT_DATA_PATH '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899' to '2609991899', because SteamAppId is '0'
+Sat Aug  2 08:14:24 JST 2025 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899'
+Sat Aug  2 08:14:24 JST 2025 INFO - loadLangFile - Language from command line is 'english'
+Sat Aug  2 08:14:24 JST 2025 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Sat Aug  2 08:14:24 JST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Sat Aug  2 08:14:24 JST 2025 INFO - loadLangFile - Loading found system wide /usr/share/steamtinkerlaunch/lang//english.txt
+Sat Aug  2 08:14:25 JST 2025 INFO - getCurrentCommandline - No Proton in command line arguments 'waitforexitandrun /home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 08:14:25 JST 2025 INFO - saveOrgVars - Storing some original variables to restore them later
+Sat Aug  2 08:14:25 AM JST 2025 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Sat Aug  2 08:14:25 AM JST 2025 INFO - emptyVars - Set $PATH to '/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:'
+Sat Aug  2 08:14:25 AM JST 2025 START - ######### Initializing Game Launch 2609991899 using SteamTinkerLaunch v12.12 #########
+Sat Aug  2 08:14:25 AM JST 2025 INFO - main - Starting with a clean log
+Sat Aug  2 08:14:25 AM JST 2025 INFO - main - Start creating default configs
+Sat Aug  2 08:14:25 AM JST 2025 INFO - createDefaultCfgs - START
+Sat Aug  2 08:14:25 AM JST 2025 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Sat Aug  2 08:14:25 AM JST 2025 INFO - loadLangFile - Language from command line is 'english'
+Sat Aug  2 08:14:25 AM JST 2025 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Sat Aug  2 08:14:25 AM JST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Sat Aug  2 08:14:25 AM JST 2025 INFO - loadLangFile - Loading found system wide /usr/share/steamtinkerlaunch/lang/english.txt
+Sat Aug  2 08:14:25 AM JST 2025 INFO - loadLanguage - Loading STLLANG from '/home/shota/.config/steamtinkerlaunch/global.conf'
+Sat Aug  2 08:14:25 AM JST 2025 INFO - loadLanguage - STLLANG from '/home/shota/.config/steamtinkerlaunch/global.conf' is 'english'
+Sat Aug  2 08:14:25 AM JST 2025 INFO - createDefaultCfgs - setSteamPaths:
+Sat Aug  2 08:14:25 AM JST 2025 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Sat Aug  2 08:14:25 AM JST 2025 INFO - getGameOS - Starting game OS detection
+Sat Aug  2 08:14:25 AM JST 2025 INFO - getGameOS - Making some checks on '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat' to determine the OS version of the game
+Sat Aug  2 08:14:25 AM JST 2025 WARN - getGameOS - Could not determine OS version of '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat' (add check?), so assuming this is a Windows game
+Sat Aug  2 08:14:25 AM JST 2025 INFO - setWin - 'launchmod_eldenring.bat' determined to be a Windows Game
+Sat Aug  2 08:14:25 AM JST 2025 INFO - createDefaultCfgs - createProtonList:
+Sat Aug  2 08:14:25 AM JST 2025 INFO - createDefaultCfgs - createProtonList end
+Sat Aug  2 08:14:25 AM JST 2025 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Sat Aug  2 08:14:25 AM JST 2025 INFO - createDefaultCfgs - STOP
+Sat Aug  2 08:14:25 AM JST 2025 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Sat Aug  2 08:14:25 AM JST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/shota/.local/share/Steam/steamapps'
+Sat Aug  2 08:14:25 AM JST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64:/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared:/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Sat Aug  2 08:14:25 AM JST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64:/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared:/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Sat Aug  2 08:14:25 AM JST 2025 INFO - main - Checking internal dependencies:
+Sat Aug  2 08:14:25 AM JST 2025 INFO - setAwkBin - Found 'gawk' as an 'awk' variant. It should work without any issues, because 'gawk' was tested completely
+Sat Aug  2 08:14:26 AM JST 2025 INFO - checkIntDeps - Result of version check for yad binary '/sbin/yad' is '14.1'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - main - Initializing first Proton:
+Sat Aug  2 08:14:26 AM JST 2025 INFO - initOldProtonArr - Creating an initial array with available Proton versions using the file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt' which was created during a previous run
+Sat Aug  2 08:14:26 AM JST 2025 INFO - initFirstProton - Initializing Proton
+Sat Aug  2 08:14:26 AM JST 2025 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/shota/.config/steamtinkerlaunch/default_template.conf' is 'GE-Proton10-10'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - main - Initializing default window resolution
+Sat Aug  2 08:14:26 AM JST 2025 INFO - setInitWinXY - Using '1920x1080' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - main - Welcome to SteamTinkerLaunch
+Sat Aug  2 08:14:26 AM JST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/shota/.config/steamtinkerlaunch/games/appinfo'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/shota/.config/steamtinkerlaunch/games/header'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - main - Checking command line: incoming arguments 'waitforexitandrun /home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 08:14:26 AM JST 2025 SKIP - getGameOS - ISGAME is already set to '2' - nothing to determine
+Sat Aug  2 08:14:26 AM JST 2025 INFO - linkLog - Symlink '/home/shota/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/launchmod_eldenring.bat.log' already exists
+Sat Aug  2 08:14:26 AM JST 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/shota/.config/steamtinkerlaunch/games/appinfo/2609991899.bin'
+Sat Aug  2 08:14:26 AM JST 2025 START - ######### Game Launch: launchmod_eldenring.bat (2609991899) #########
+Sat Aug  2 08:14:26 AM JST 2025 INFO - dlCheck - Downloading picture for game '2609991899'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - notiShow - Message 'Downloading '/home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'' should go to StatusWindow
+Sat Aug  2 08:14:26 AM JST 2025 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/2609991899/header.jpg -O /home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - prepareLaunch - Game launch args '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - prepareLaunch - Gamedir '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - prepareLaunch - Proton wineprefix '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899/pfx'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - prepareLaunch - No INGCMD but valid ORGGCMD - May be Non-Steam game
+Sat Aug  2 08:14:26 AM JST 2025 INFO - prepareLaunch -------------------
+Sat Aug  2 08:14:26 AM JST 2025 INFO - prepareLaunch - CreateGameCfg:
+Sat Aug  2 08:14:26 AM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' already at version 'v12.12'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/launchmod_eldenring.bat.conf' already exists
+Sat Aug  2 08:14:26 AM JST 2025 INFO - prepareLaunch - First LoadCfg: /home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf
+Sat Aug  2 08:14:26 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' START
+Sat Aug  2 08:14:26 AM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf'
+Sat Aug  2 08:14:26 AM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/2609991899.conf' does not exist - nothing to do
+Sat Aug  2 08:14:26 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' STOP
+Sat Aug  2 08:14:27 AM JST 2025 SKIP - autoBumpReShade - '6.5.1' is the latest version of 'ReShade' - not updating
+Sat Aug  2 08:14:27 AM JST 2025 INFO - prepareLaunch - Initial Proton version from the game config: 'GE-Proton10-10'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - prepareLaunch - Initializing internal Proton Vars for 'GE-Proton10-10' using setNewProtVars
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setNewProtVars - Setting new Proton Variables based on '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setNewProtVars - Continuing with RUNPROTON='/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setRunWineServer - Set the wine binary for proton in path '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setRunWineServer - to '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/files/bin/wine'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setRunWineServer - and wineserver to '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/files/bin/wineserver'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - prepareLaunch - OpenTrayIcon:
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setShaderDest - Determining Shader destination directory SHADDESTDIR
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setShaderDest - Using variable ABSGAMEEXEPATH for Shader destination directory '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setShaderDest - Using Shader destination directory '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setShaderDest - Shader destination directory is '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' for 'SHADDESTDIR'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - openTrayIcon - Opening trayIcon:
+Sat Aug  2 08:14:27 AM JST 2025 INFO - prepareLaunch - sortGameArgs:
+Sat Aug  2 08:14:27 AM JST 2025 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Sat Aug  2 08:14:27 AM JST 2025 INFO - prepareLaunch - AskSettings:
+Sat Aug  2 08:14:27 AM JST 2025 INFO - askSettings - Using game specific requester timeout '20'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - askSettings - Opening Requester with timeout '20'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899/pfx/drive_c/users/steamuser'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/shota/.config/steamtinkerlaunch/games/appinfo/2609991899.bin'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - pollWinRes - Using GEOM '--geometry=1920x1080+0+0' from '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/2609991899/SteamTinkerLaunch-OpenSettings.conf'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/2609991899/SteamTinkerLaunch-OpenSettings.conf' with incoming '1920x1080'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setShowPic - Determining game picture
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setShowPic - Game header picture exists at '/home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg' but has zero bytes. Attempting one redownload
+Sat Aug  2 08:14:27 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - dlCheck - Downloading picture for game '2609991899'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - notiShow - Message 'Downloading '/home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'' should go to StatusWindow
+Sat Aug  2 08:14:27 AM JST 2025 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/2609991899/header.jpg -O /home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'
+Sat Aug  2 08:14:27 AM JST 2025 INFO - setShowPic - Could not redownload header picture, defaulting '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' to STL icon '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' (Maybe we're offline?)
+Sat Aug  2 08:14:27 AM JST 2025 WARN - getProtonDBRating - Can't get data from 'https://www.protondb.com/api/v1/reports/summaries/2609991899.json' because 'jq' is not installed
+Sat Aug  2 08:14:27 AM JST 2025 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Sat Aug  2 08:14:27 AM JST 2025 INFO - askSettings - Could not retrieve Steam Deck compatibility rating, defaulting to Unknown - Maybe 'jq' is missing or we are offline?
+Sat Aug  2 08:14:27 AM JST 2025 INFO - askSettings - Steam Deck compatibility rating string is '<b>Steam Deck Compatibility:</b> '
+Sat Aug  2 08:14:27 AM JST 2025 INFO - askSettings - Preparing to show Wait Requester
+Sat Aug  2 08:14:28 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Sat Aug  2 08:14:29 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Sat Aug  2 08:14:30 AM JST 2025 SKIP - updateWinRes - Timeout waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Sat Aug  2 08:14:32 AM JST 2025 INFO - MainMenu - Preparing to load Main Menu
+Sat Aug  2 08:14:32 AM JST 2025 SKIP - createDLSpekList - Skipping looking for available SpecialK versions, because USESPECIALK is disabled
+Sat Aug  2 08:14:32 AM JST 2025 INFO - createDLReShadeList - Found the following 'ReShade' versions online '6.5.1!6.5.0!6.4.1'
+Sat Aug  2 08:14:32 AM JST 2025 INFO - prepareMenu - Opening Menu
+Sat Aug  2 08:14:32 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' START
+Sat Aug  2 08:14:32 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' STOP
+Sat Aug  2 08:14:32 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' START
+Sat Aug  2 08:14:32 AM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf'
+Sat Aug  2 08:14:32 AM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/2609991899.conf' does not exist - nothing to do
+Sat Aug  2 08:14:32 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' STOP
+Sat Aug  2 08:14:32 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' START
+Sat Aug  2 08:14:32 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' STOP
+Sat Aug  2 08:14:32 AM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' already at version 'v12.12'
+Sat Aug  2 08:14:32 AM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/launchmod_eldenring.bat.conf' already exists
+Sat Aug  2 08:14:32 AM JST 2025 INFO - createWineList - Updating the Wine Dropdown List
+Sat Aug  2 08:14:32 AM JST 2025 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899/pfx/drive_c/users/steamuser'
+Sat Aug  2 08:14:32 AM JST 2025 INFO - setShowPic - Determining game picture
+Sat Aug  2 08:14:32 AM JST 2025 INFO - setShowPic - Game header picture exists at '/home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg' but has zero bytes. Attempting one redownload
+Sat Aug  2 08:14:32 AM JST 2025 INFO - dlCheck - Downloading picture for game '2609991899'
+Sat Aug  2 08:14:32 AM JST 2025 INFO - notiShow - Message 'Downloading '/home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'' should go to StatusWindow
+Sat Aug  2 08:14:32 AM JST 2025 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/2609991899/header.jpg -O /home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'
+Sat Aug  2 08:14:33 AM JST 2025 INFO - setShowPic - Could not redownload header picture, defaulting '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' to STL icon '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' (Maybe we're offline?)
+Sat Aug  2 08:14:33 AM JST 2025 INFO - setOPCustPath - Default path for custom exe file requester is '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 08:14:33 AM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Sat Aug  2 08:14:33 AM JST 2025 INFO - pollWinRes - Using GEOM '--geometry=1920x1080+0+0' from '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/2609991899/SteamTinkerLaunch-MainMenu.conf'
+Sat Aug  2 08:14:33 AM JST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/2609991899/SteamTinkerLaunch-MainMenu.conf' with incoming '1920x1080'
+Sat Aug  2 08:14:33 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Sat Aug  2 08:14:33 AM JST 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/shota/.config/steamtinkerlaunch/games/appinfo/2609991899.bin'
+Sat Aug  2 08:14:33 AM JST 2025 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Sat Aug  2 08:14:33 AM JST 2025 INFO - MainMenu - Game Info Gotten!
+Sat Aug  2 08:14:34 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Sat Aug  2 08:14:35 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Sat Aug  2 08:14:35 AM JST 2025 INFO - MainMenu - Clicked '6' - 'GAME MENU'
+Sat Aug  2 08:14:35 AM JST 2025 INFO - MainMenu - exiting 'Settings Menu' and opening 'Game Menu'
+Sat Aug  2 08:14:35 AM JST 2025 INFO - prepareMenu - Opening Menu
+Sat Aug  2 08:14:35 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' START
+Sat Aug  2 08:14:35 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' STOP
+Sat Aug  2 08:14:35 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' START
+Sat Aug  2 08:14:35 AM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf'
+Sat Aug  2 08:14:35 AM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/2609991899.conf' does not exist - nothing to do
+Sat Aug  2 08:14:35 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' STOP
+Sat Aug  2 08:14:35 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' START
+Sat Aug  2 08:14:35 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' STOP
+Sat Aug  2 08:14:35 AM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' already at version 'v12.12'
+Sat Aug  2 08:14:35 AM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/launchmod_eldenring.bat.conf' already exists
+Sat Aug  2 08:14:36 AM JST 2025 INFO - createWineList - Updating the Wine Dropdown List
+Sat Aug  2 08:14:36 AM JST 2025 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899/pfx/drive_c/users/steamuser'
+Sat Aug  2 08:14:36 AM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' already at version 'v12.12'
+Sat Aug  2 08:14:36 AM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/launchmod_eldenring.bat.conf' already exists
+Sat Aug  2 08:14:36 AM JST 2025 INFO - createWineList - Updating the Wine Dropdown List
+Sat Aug  2 08:14:36 AM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf'
+Sat Aug  2 08:14:36 AM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/2609991899.conf' does not exist - nothing to do
+Sat Aug  2 08:14:36 AM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Sat Aug  2 08:14:36 AM JST 2025 INFO - pollWinRes - Using GEOM '--geometry=1920x1080+0+0' from '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/2609991899/SteamTinkerLaunch-launchGameMenu.conf'
+Sat Aug  2 08:14:36 AM JST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/2609991899/SteamTinkerLaunch-launchGameMenu.conf' with incoming '1920x1080'
+Sat Aug  2 08:14:36 AM JST 2025 INFO - openMenu - Starting createMenu "/dev/shm/steamtinkerlaunch/menutemp/gamemenu" "launchGameMenu" "/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png" "EMPTY" "EMPTY" "Settings for game 'launchmod_eldenring.bat (2609991899)'" "MainMenu" "MENU_GAME"
+Sat Aug  2 08:14:36 AM JST 2025 INFO - createMenu - got '9' elements: '0 /dev/shm/steamtinkerlaunch/menutemp/gamemenu launchGameMenu /dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png EMPTY EMPTY Settings for game 'launchmod_eldenring.bat (2609991899)' MainMenu MENU_GAME'
+Sat Aug  2 08:14:36 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Sat Aug  2 08:14:36 AM JST 2025 INFO - openMenu - Currently used tempfile is '/dev/shm/steamtinkerlaunch/menu.nkrqg0fu'
+Sat Aug  2 08:14:36 AM JST 2025 SKIP - updateWinRes - Timeout waiting for Window 'SteamTinkerLaunch-MainMenu'
+Sat Aug  2 08:14:37 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Sat Aug  2 08:14:38 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Sat Aug  2 08:14:39 AM JST 2025 SKIP - updateWinRes - Timeout waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Sat Aug  2 08:14:55 AM JST 2025 INFO - openMenu - Clicked '10' - 'PLAY'
+Sat Aug  2 08:14:55 AM JST 2025 INFO - openMenu - exiting 'Favorite Menu' and opening 'Game Start'
+Sat Aug  2 08:14:55 AM JST 2025 INFO - startSteamGame - Starting game
+Sat Aug  2 08:14:55 AM JST 2025 INFO - goBackToPrevFunction - 'MainMenu' closed
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - Second LoadCfg after menus: /home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf
+Sat Aug  2 08:14:55 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' START
+Sat Aug  2 08:14:55 AM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf'
+Sat Aug  2 08:14:55 AM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/2609991899.conf' does not exist - nothing to do
+Sat Aug  2 08:14:55 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' STOP
+Sat Aug  2 08:14:55 AM JST 2025 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Sat Aug  2 08:14:55 AM JST 2025 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - symlinkSteamUser:
+Sat Aug  2 08:14:55 AM JST 2025 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Sat Aug  2 08:14:55 AM JST 2025 SKIP - symlinkSteamUser - '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - restoreSteamUser:
+Sat Aug  2 08:14:55 AM JST 2025 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Sat Aug  2 08:14:55 AM JST 2025 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - prepareProton:
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - setLinGameVals :
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - CheckTweakLaunch:
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - checkXliveless:
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - chooseWinetricks:
+Sat Aug  2 08:14:55 AM JST 2025 INFO - prepareLaunch - checkExtDeps:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - checkExtDeps done
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - setWineVars:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - CheckWinetricksLaunch:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - CheckWineCfgLaunch:
+Sat Aug  2 08:14:56 AM JST 2025 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - CustomRegs:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - TogWindows:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - StateSteamWebHelper:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - InstallReshade:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - installDepth3DReshade:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - checkReshade:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' for 'SHADDESTDIR'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - useSpecialK:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' for 'SPEKDDIR'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - configureGeoElf:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' for 'GEOELFDDIR'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - ChooseShaders:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - UseNyrnaz:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - UseReplay:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - CheckSBSVRLaunch:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - checkMO2:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - setNewRes:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - customUserScriptStart:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - redirectSCDP:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - redirectSCDP - Using Proton version with minor version fix 'GE-Proton10-10' for compatdata directory name
+Sat Aug  2 08:14:56 AM JST 2025 INFO - redirectSCDP - Using regular compatdata '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - checkIGCSInjector:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - checkOpenVRFSR:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - CheckFWS:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - loadCustomVars - Empty global config '/home/shota/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Sat Aug  2 08:14:56 AM JST 2025 INFO - loadCustomVars - Empty game-specific config '/home/shota/.config/steamtinkerlaunch/gamecfgs/customvars/2609991899.conf' for user defined custom variables not loaded
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - CheckCustomLaunch:
+Sat Aug  2 08:14:56 AM JST 2025 SKIP - checkCustomLaunch - USECUSTOMCMD is '0' therefore skipping the custom program '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - checkUUUPatchLaunch:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - CheckStraceLaunch:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - CheckNetMonLaunch:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - checkWDIB:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - checkPulse:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - checkSteamAppIDFile:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/steam_appid.txt' - nothing to do
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - setCompatDataTitle:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setCompatDataTitle - Symlink /home/shota/.config/steamtinkerlaunch/compatdata/launchmod_eldenring.bat already exists
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setCompatDataTitle - Symlink '/home/shota/.config/steamtinkerlaunch/compatdata/launchmod_eldenring.bat' already points to the correct directory '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899'
+Sat Aug  2 08:14:56 AM JST 2025 SKIP - delayGameForCustomLaunch - Nothing to do
+Sat Aug  2 08:14:56 AM JST 2025 INFO - prepareLaunch - launchSteamGame:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - launchSteamGame - Initial game command is ''
+Sat Aug  2 08:14:56 AM JST 2025 INFO - gameArgs - Game doesn't use any command line arguments
+Sat Aug  2 08:14:56 AM JST 2025 INFO - launchSteamGame - Preparing proton command
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Sat Aug  2 08:14:56 AM JST 2025 SKIP - setRunProtonFromUseProton - RUNPROTON '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton' hasn't changed
+Sat Aug  2 08:14:56 AM JST 2025 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Sat Aug  2 08:14:56 AM JST 2025 SKIP - unSymlink - Unsymlinking is not enabled
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setProtonCmd - Prepending Proton 'GE-Proton10-10' (='/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton') to the command line '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setProtonCmd - UPDATED game start command is: /home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat
+Sat Aug  2 08:14:56 AM JST 2025 INFO - setProtonCmd - Starting 'launchmod_eldenring.bat (2609991899)' with Proton: 'GE-Proton10-10'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - launchSteamGame - Original incoming start command: ''
+Sat Aug  2 08:14:56 AM JST 2025 INFO - launchSteamGame - Final outgoing start command: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton waitforexitandrun /home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/meta/id/general/2609991899.conf' START
+Sat Aug  2 08:14:56 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/meta/id/general/2609991899.conf' STOP
+Sat Aug  2 08:14:56 AM JST 2025 INFO - startGame - Getting the Game Window name:
+Sat Aug  2 08:14:56 AM JST 2025 INFO - startGame - Full start command is '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton waitforexitandrun /home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - getGameWindowName - No gamewindow name stored in metadata '/home/shota/.config/steamtinkerlaunch/meta/id/general/2609991899.conf' yet. Trying to find it now
+Sat Aug  2 08:14:56 AM JST 2025 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: ''
+Sat Aug  2 08:14:56 AM JST 2025 INFO - startGame - ## STL LAUNCH COMMAND: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton waitforexitandrun /home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 08:14:56 AM JST 2025 INFO - startGame - ## GAMESTART HERE ###
+Sat Aug  2 08:14:56 AM JST 2025 INFO - restoreOrgVars - Restoring previously cleared Variables
+Sat Aug  2 08:14:56 AM JST 2025 WAIT - getGameWindowPID - Sec 0/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:14:57 AM JST 2025 WAIT - getGameWindowPID - Sec 1/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:14:58 AM JST 2025 WAIT - getGameWindowPID - Sec 2/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:14:59 AM JST 2025 WAIT - getGameWindowPID - Sec 3/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:00 AM JST 2025 WAIT - getGameWindowPID - Sec 4/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:01 AM JST 2025 WAIT - getGameWindowPID - Sec 5/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:02 AM JST 2025 WAIT - getGameWindowPID - Sec 6/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:03 AM JST 2025 WAIT - getGameWindowPID - Sec 7/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:04 AM JST 2025 WAIT - getGameWindowPID - Sec 8/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:05 AM JST 2025 WAIT - getGameWindowPID - Sec 9/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:06 AM JST 2025 WAIT - getGameWindowPID - Sec 10/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:07 AM JST 2025 WAIT - getGameWindowPID - Sec 11/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:08 AM JST 2025 WAIT - getGameWindowPID - Sec 12/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:09 AM JST 2025 WAIT - getGameWindowPID - Sec 13/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:10 AM JST 2025 WAIT - getGameWindowPID - Sec 14/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:11 AM JST 2025 WAIT - getGameWindowPID - Sec 15/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:12 AM JST 2025 WAIT - getGameWindowPID - Sec 16/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:13 AM JST 2025 WAIT - getGameWindowPID - Sec 17/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:14 AM JST 2025 WAIT - getGameWindowPID - Sec 18/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:15 AM JST 2025 WAIT - getGameWindowPID - Sec 19/20 Game Window with pwd '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' not yet in front
+Sat Aug  2 08:15:16 AM JST 2025 SKIP - getGameWindowPID - ERROR - timeout waiting for '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' window
+Sat Aug  2 08:15:16 AM JST 2025 SKIP - getGameWindowName - No valid game window PID found
+Sat Aug  2 10:20:10 AM JST 2025 INFO - startGame - Symlink '/home/shota/.config/steamtinkerlaunch/logs/gamelaunch/title/launchmod_eldenring.bat.log' already exists
+Sat Aug  2 10:20:10 AM JST 2025 ERROR - startGame - Could not determine pid of '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/files/bin/wineserver'
+Sat Aug  2 10:20:10 AM JST 2025 INFO - startGame - ## GAMESTOP after '7514' seconds playtime
+Sat Aug  2 10:20:10 AM JST 2025 STOP - ######### SteamTinkerLaunch v12.12 #########
+Sat Aug  2 10:20:10 AM JST 2025 INFO - prepareLaunch - KEEPSTLOPEN is enabled - re-opening the SteamTinkerLaunch menu
+Sat Aug  2 10:20:10 AM JST 2025 INFO - linkLog - Symlink '/home/shota/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/launchmod_eldenring.bat.log' already exists
+Sat Aug  2 10:20:10 AM JST 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/shota/.config/steamtinkerlaunch/games/appinfo/2609991899.bin'
+Sat Aug  2 10:20:10 AM JST 2025 START - ######### Game Launch: launchmod_eldenring.bat (2609991899) #########
+Sat Aug  2 10:20:10 AM JST 2025 INFO - dlCheck - Downloading picture for game '2609991899'
+Sat Aug  2 10:20:10 AM JST 2025 INFO - notiShow - Message 'Downloading '/home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'' should go to StatusWindow
+Sat Aug  2 10:20:10 AM JST 2025 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/2609991899/header.jpg -O /home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'
+Sat Aug  2 10:20:10 AM JST 2025 INFO - prepareLaunch - Game launch args '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 10:20:10 AM JST 2025 INFO - prepareLaunch - Gamedir '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2'
+Sat Aug  2 10:20:10 AM JST 2025 INFO - prepareLaunch - Proton wineprefix '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899/pfx'
+Sat Aug  2 10:20:10 AM JST 2025 INFO - prepareLaunch - No INGCMD but valid ORGGCMD - May be Non-Steam game
+Sat Aug  2 10:20:10 AM JST 2025 INFO - prepareLaunch -------------------
+Sat Aug  2 10:20:10 AM JST 2025 INFO - prepareLaunch - CreateGameCfg:
+Sat Aug  2 10:20:11 AM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' already at version 'v12.12'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/launchmod_eldenring.bat.conf' already exists
+Sat Aug  2 10:20:11 AM JST 2025 INFO - prepareLaunch - First LoadCfg: /home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf
+Sat Aug  2 10:20:11 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' START
+Sat Aug  2 10:20:11 AM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/2609991899.conf' does not exist - nothing to do
+Sat Aug  2 10:20:11 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' STOP
+Sat Aug  2 10:20:11 AM JST 2025 SKIP - autoBumpReShade - '6.5.1' is the latest version of 'ReShade' - not updating
+Sat Aug  2 10:20:11 AM JST 2025 INFO - prepareLaunch - Initial Proton version from the game config: 'GE-Proton10-10'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - prepareLaunch - Initializing internal Proton Vars for 'GE-Proton10-10' using setNewProtVars
+Sat Aug  2 10:20:11 AM JST 2025 INFO - setNewProtVars - Setting new Proton Variables based on '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - setNewProtVars - Continuing with RUNPROTON='/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - setRunWineServer - Set the wine binary for proton in path '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - setRunWineServer - to '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/files/bin/wine'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - setRunWineServer - and wineserver to '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/files/bin/wineserver'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - prepareLaunch - OpenTrayIcon:
+Sat Aug  2 10:20:11 AM JST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Sat Aug  2 10:20:11 AM JST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2' for 'SHADDESTDIR'
+Sat Aug  2 10:20:11 AM JST 2025 INFO - prepareLaunch - sortGameArgs:
+Sat Aug  2 10:20:11 AM JST 2025 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Sat Aug  2 10:20:11 AM JST 2025 INFO - MainMenu - Preparing to load Main Menu
+Sat Aug  2 10:20:11 AM JST 2025 SKIP - createDLSpekList - Skipping looking for available SpecialK versions, because USESPECIALK is disabled
+Sat Aug  2 10:20:12 AM JST 2025 INFO - createDLReShadeList - Found the following 'ReShade' versions online '6.5.1!6.5.0!6.4.1'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - prepareMenu - Opening Menu
+Sat Aug  2 10:20:12 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' START
+Sat Aug  2 10:20:12 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' STOP
+Sat Aug  2 10:20:12 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' START
+Sat Aug  2 10:20:12 AM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/2609991899.conf' does not exist - nothing to do
+Sat Aug  2 10:20:12 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' STOP
+Sat Aug  2 10:20:12 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' START
+Sat Aug  2 10:20:12 AM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' STOP
+Sat Aug  2 10:20:12 AM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/2609991899.conf' already at version 'v12.12'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/launchmod_eldenring.bat.conf' already exists
+Sat Aug  2 10:20:12 AM JST 2025 INFO - createWineList - Updating the Wine Dropdown List
+Sat Aug  2 10:20:12 AM JST 2025 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/shota/.local/share/Steam/steamapps/compatdata/2609991899/pfx/drive_c/users/steamuser'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - setShowPic - Determining game picture
+Sat Aug  2 10:20:12 AM JST 2025 INFO - setShowPic - Game header picture exists at '/home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg' but has zero bytes. Attempting one redownload
+Sat Aug  2 10:20:12 AM JST 2025 INFO - dlCheck - Downloading picture for game '2609991899'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - notiShow - Message 'Downloading '/home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'' should go to StatusWindow
+Sat Aug  2 10:20:12 AM JST 2025 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/2609991899/header.jpg -O /home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - setShowPic - Could not redownload header picture, defaulting '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' to STL icon '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-steam-checked.png' (Maybe we're offline?)
+Sat Aug  2 10:20:12 AM JST 2025 INFO - setOPCustPath - Default path for custom exe file requester is '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - pollWinRes - Using GEOM '--geometry=1920x1080+0+0' from '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/2609991899/SteamTinkerLaunch-MainMenu.conf'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/2609991899/SteamTinkerLaunch-MainMenu.conf' with incoming '1920x1080'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Sat Aug  2 10:20:12 AM JST 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/shota/.config/steamtinkerlaunch/games/appinfo/2609991899.bin'
+Sat Aug  2 10:20:12 AM JST 2025 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Sat Aug  2 10:20:12 AM JST 2025 INFO - MainMenu - Game Info Gotten!
+Sat Aug  2 10:20:13 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Sat Aug  2 10:20:14 AM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Sat Aug  2 10:20:15 AM JST 2025 SKIP - updateWinRes - Timeout waiting for Window 'SteamTinkerLaunch-MainMenu'
+Sat Aug  2 10:20:15 AM JST 2025 INFO - MainMenu - Clicked '0' - 'EXIT'
+Sat Aug  2 10:20:15 AM JST 2025 INFO - MainMenu - exiting 'Settings Menu' and opening 'Exit'
+Sat Aug  2 10:20:15 AM JST 2025 INFO - closeSTL - closing STL
+Sat Aug  2 10:20:15 AM JST 2025 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/shota/.config/steamtinkerlaunch/default_template.conf'
+Sat Aug  2 10:20:15 AM JST 2025 INFO - updateConfigEntry - Option 'CUSTOMCMD' is updated with the new value 'echo' in config 'default_template.conf'
+Sat Aug  2 10:20:15 AM JST 2025 INFO - closeSTL - Creating '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Sat Aug  2 10:20:15 AM JST 2025 INFO - checkPlayTime - The game was not started via 'steamtinkerlaunch' but directly from Steam - skipping Crash Requester
+Sat Aug  2 10:20:15 AM JST 2025 INFO - closeSTL - Game 'launchmod_eldenring.bat (2609991899)' exited - cleaning up custom processes if necessary
+Sat Aug  2 10:20:15 AM JST 2025 INFO - closeTrayIcon - Closing TrayIcon '20549'
+Sat Aug  2 10:20:16 AM JST 2025 INFO - closeSTL - Removing '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Sat Aug  2 10:20:16 AM JST 2025 STOP - ######### closeSTL SteamTinkerLaunch v12.12 #########
+Sat Aug  2 10:20:16 AM JST 2025 INFO - writeLastRun - Recreating /home/shota/.config/steamtinkerlaunch/logs/steamtinkerlaunch/lastrun.txt
+Sat Aug  2 10:20:16 AM JST 2025 INFO - storeMetaData - Saving metadata for game 'launchmod_eldenring.bat (2609991899)'
+Sat Aug  2 10:20:16 AM JST 2025 INFO - getArch - Architecture for bundled '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/modengine2/crashpad/crashpad_handler.exe' for '/home/shota/Games/mod/elden ring/Graceborne/Mod Engine 2/launchmod_eldenring.bat' is 64bit
+Sat Aug  2 10:20:16 AM JST 2025 INFO - storeMetaData - '/home/shota/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_2609991899.vdf' does not exists

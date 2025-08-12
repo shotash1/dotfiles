@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=graceborne.bat
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/3228295918
+Icon=/home/shota/.config/steamtinkerlaunch/games/header/3228295918.jpg
+Terminal=false
+Type=Application
+Categories=Game;

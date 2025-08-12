@@ -1,0 +1,6 @@
+RUNPROTON="/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"
+RUNWINE="/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/files/bin/wine"
+PROTONVERSION="GE-Proton10-10"
+PREVAID="2338380641"
+PREVGAME="convergence.bat"
+PREVABSGAMEEXEPATH="/home/shota/Games/mod/elden ring/convergence/ConvergenceER/convergence.bat"

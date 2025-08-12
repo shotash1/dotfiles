@@ -1,0 +1,10 @@
+[Default Applications]
+inode/directory=thunar.desktop
+application/x-zerosize=gvim.desktop
+
+[Added Associations]
+inode/directory=thunar.desktop;
+image/png=firefox.desktop;net.fasterland.converseen.desktop;
+application/json=gvim.desktop;
+application/x-zerosize=gvim.desktop;
+image/jpeg=net.fasterland.converseen.desktop;

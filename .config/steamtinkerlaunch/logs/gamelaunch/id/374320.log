@@ -1,0 +1,15 @@
+ERROR: ld.so: object '/home/shota/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/shota/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ProtonFixes[15463] WARN: [CONFIG]: Parent directory "/home/shota/.config/protonfixes" does not exist. Abort.
+ProtonFixes[15463] INFO: Running protonfixes on "GE-Proton10-10", build at 2025-07-19 04:57:28+00:00.
+ProtonFixes[15463] INFO: Running checks
+ProtonFixes[15463] INFO: All checks successful
+ProtonFixes[15463] INFO: Using global defaults for "DARK SOULS™ III" (374320)
+ProtonFixes[15463] INFO: No global protonfix found for "DARK SOULS™ III" (374320)
+fsync: up and running.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+Fossilize INFO: Overriding serialization path: "/home/shota/.local/share/Steam/steamapps/shadercache/374320/fozpipelinesv6/steamapprun_pipeline_cache".
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+pid 15467 != 15466, skipping destruction (fork without exec?)

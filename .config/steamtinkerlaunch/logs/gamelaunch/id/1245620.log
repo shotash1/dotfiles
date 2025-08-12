@@ -1,0 +1,28 @@
+ERROR: ld.so: object '/home/shota/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/shota/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ProtonFixes[18228] WARN: [CONFIG]: Parent directory "/home/shota/.config/protonfixes" does not exist. Abort.
+ProtonFixes[18228] INFO: Running protonfixes on "GE-Proton10-10", build at 2025-07-19 04:57:28+00:00.
+ProtonFixes[18228] INFO: Running checks
+ProtonFixes[18228] INFO: All checks successful
+ProtonFixes[18228] INFO: Using global defaults for "ELDEN RING" (1245620)
+ProtonFixes[18228] INFO: Using global protonfix for "ELDEN RING" (1245620)
+fsync: up and running.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+Fossilize INFO: Overriding serialization path: "/home/shota/.local/share/Steam/steamapps/shadercache/1245620/fozpipelinesv6/steamapprun_pipeline_cache".
+Setting breakpad minidump AppID = 1245620
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561199577642154 [API loaded no]
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+Fossilize INFO: Overriding serialization path: "/home/shota/.local/share/Steam/steamapps/shadercache/1245620/fozpipelinesv6/steamapprun_pipeline_cache".
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+pid 18232 != 18231, skipping destruction (fork without exec?)

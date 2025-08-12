@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=DARK SOULS III
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/374320
+Icon=/home/shota/.config/steamtinkerlaunch/games/header/374320.jpg
+Terminal=false
+Type=Application
+Categories=Game;

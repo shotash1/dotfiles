@@ -1,0 +1,14 @@
+<!DOCTYPE patchbay>
+<patchbay name="1" version="0.9.4">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox" port="Firefox:output_FL"/>
+   <input node="Rubix22 Analog Stereo" port="Rubix22:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox" port="Firefox:output_FR"/>
+   <input node="Rubix22 Analog Stereo" port="Rubix22:playback_FR"/>
+  </item>
+ </items>
+</patchbay>
+

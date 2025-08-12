@@ -1,0 +1,31 @@
+{
+	"finished": [
+		{
+			"params": {
+				"appName": "gog-redist",
+				"runner": "gog",
+				"path": "/home/shota/.config/heroic/tools/redist/gog",
+				"platformToInstall": "windows",
+				"gameInfo": {
+					"app_name": "gog-redist",
+					"runner": "gog",
+					"title": "Galaxy Common Redistributables",
+					"canRunOffline": true,
+					"install": {
+						"is_dlc": true
+					},
+					"is_installed": true,
+					"art_cover": "https://images.gog-statics.com/516af877f6a03199526d1ce5a76358b8f85f6b828764cf46c820f77ae8832fc5.jpg",
+					"art_square": "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5fa80a0fb5ff0b2aaca6730ba213219b.png"
+				},
+				"size": "?? MB"
+			},
+			"addToQueueTime": 1753577436083,
+			"startTime": 1753577441231,
+			"endTime": 1753577441439,
+			"type": "update",
+			"status": "done"
+		}
+	],
+	"queue": []
+}

@@ -1,0 +1,58 @@
+"evaluatorscript"
+{
+	"0"
+	{
+		"appid"		"228980"
+		"mode"		"1"
+		"language"		"english"
+		"commonredist"		"1"
+		"SteamID"		"76561199577642154"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"x86 Update 4"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2012"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2012\\vcredist_x86.exe"
+					"command 1"		"/quiet /norestart"
+					"nocleanup"		"1"
+				}
+				"x64 Update 4"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2012"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2012\\vcredist_x64.exe"
+					"command 1"		"/quiet /norestart"
+					"nocleanup"		"1"
+					"requirement_os"
+					{
+						"Is64BitWindows"		"1"
+					}
+				}
+			}
+		}
+		"linux_install_path"		"/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+	"1"
+	{
+		"appid"		"228980"
+		"mode"		"1"
+		"language"		"english"
+		"commonredist"		"1"
+		"SteamID"		"76561199577642154"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"dxsetup"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\DirectX\\Jun2010"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DirectX\\Jun2010\\DXSETUP.exe"
+					"command 1"		"/silent"
+					"nocleanup"		"1"
+				}
+			}
+		}
+		"linux_install_path"		"/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+}

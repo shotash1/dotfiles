@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ELDEN RING
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1245620
+Icon=/home/shota/.config/steamtinkerlaunch/games/header/1245620.jpg
+Terminal=false
+Type=Application
+Categories=Game;

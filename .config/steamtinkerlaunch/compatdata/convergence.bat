@@ -1,0 +1,1 @@
+/home/shota/.local/share/Steam/steamapps/compatdata/2338380641

@@ -1,0 +1,85 @@
+"evaluatorscript"
+{
+	"0"
+	{
+		"appid"		"1245620"
+		"mode"		"1"
+		"language"		"english"
+		"commonredist"		"0"
+		"SteamID"		"76561199577642154"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"easyanticheat2 install"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\1245620"
+					"process 1"		"%INSTALLDIR%\\Game\\EasyAntiCheat\\EasyAntiCheat_EOS_Setup.exe"
+					"command 1"		"install 773d3a68f76f4b2ebebc5b4127bbad3e"
+				}
+			}
+			"Run Process On Uninstall"
+			{
+				"easyanticheat2 uninstall"
+				{
+					"process 1"		"%INSTALLDIR%\\Game\\EasyAntiCheat\\EasyAntiCheat_EOS_Setup.exe"
+					"command 1"		"uninstall 773d3a68f76f4b2ebebc5b4127bbad3e"
+				}
+			}
+		}
+		"linux_install_path"		"/home/shota/.local/share/Steam/steamapps/common/ELDEN RING"
+	}
+	"1"
+	{
+		"appid"		"228980"
+		"mode"		"1"
+		"language"		"english"
+		"commonredist"		"1"
+		"SteamID"		"76561199577642154"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"x86 14.28.29334.0"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2019"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2019\\Microsoft Visual C++ 2019 x86.cmd"
+					"nocleanup"		"1"
+				}
+				"x64 14.28.29334.0"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2019"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2019\\Microsoft Visual C++ 2019 x64.cmd"
+					"nocleanup"		"1"
+					"requirement_os"
+					{
+						"Is64BitWindows"		"1"
+					}
+				}
+			}
+		}
+		"linux_install_path"		"/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+	"2"
+	{
+		"appid"		"228980"
+		"mode"		"1"
+		"language"		"english"
+		"commonredist"		"1"
+		"SteamID"		"76561199577642154"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"dxsetup"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\DirectX\\Jun2010"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DirectX\\Jun2010\\DXSETUP.exe"
+					"command 1"		"/silent"
+					"nocleanup"		"1"
+				}
+			}
+		}
+		"linux_install_path"		"/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+}

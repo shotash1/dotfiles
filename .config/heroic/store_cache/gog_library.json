@@ -1,0 +1,748 @@
+{
+	"games": [
+		{
+			"app_name": "gog-redist",
+			"runner": "gog",
+			"title": "Galaxy Common Redistributables",
+			"canRunOffline": true,
+			"install": {
+				"is_dlc": true
+			},
+			"is_installed": true,
+			"art_cover": "https://images.gog-statics.com/516af877f6a03199526d1ce5a76358b8f85f6b828764cf46c820f77ae8832fc5.jpg",
+			"art_square": "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5fa80a0fb5ff0b2aaca6730ba213219b.png"
+		},
+		{
+			"runner": "gog",
+			"developer": "The Game Kitchen",
+			"app_name": "2068474256",
+			"art_cover": "https://images.gog.com/987cd9c97a6d209f65aecedba0e3fa6ae6de9f91c670c78e1d6907a68af843fd.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/41c1fcb2adf39d0c78853773a77a7692bf710e162b8726135cc1494eeed22a43.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/b93a88c65e32a988702bc5077428fcd55497bf7536be0984ff3004055881822b.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/86bc9d21260261dcde297a4f681b748fe678ce7f6a850437212805a827dd30f8.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Blasphemous is a punishing action-platformer that combines the fast-paced, skilled combat of a hack-n-slash game with a deep and evocative narrative core. \r\n \r\nExplore this nightmarish world of twisted religion and discover its many secrets hidden deep inside. Use devastating combos and brutal executions to smite the hordes of grotesque monsters and titanic bosses, who are all ready to rip your limbs off. Locate and equip relics, rosary beads and prayers that call on the powers of the heavens to aid you in your quest to break your eternal damnation. \r\n \r\nKey Features: \r\n \r\nExplore a Non-Linear World: Overcome fearsome enemies and deadly traps as you venture through a variety of different landscapes, and search for redemption in the dark gothic world of Cvstodia. \r\n \r\n \r\n \r\nBrutal Combat: Release the power of Mea Culpa, a sword born from guilt itself, to slaughter your foes. Acquire devastating new combos and special moves as you purge all in your path. \r\n \r\n \r\n \r\nExecutions: Unleash your wrath and relish in the gory dismemberment of your adversaries - all in beautifully rendered, pixel-perfect execution animations. \r\n \r\n \r\n \r\nCustomise Your Build: Discover and equip Relics, Rosary Beads, Prayers and Sword Hearts to give you the new abilities and stat boosts you need to survive. Experiment with different combinations to suit your playstyle. \r\n \r\n \r\n \r\nEpic Boss Battles: Hordes of gigantic, twisted creatures stand between you and your goal. Learn how they move, survive their devastating attacks and emerge victorious. \r\n \r\n \r\n \r\nUnlock the Mysteries of Cvstodia: The world is full of tormented souls. Some offer you aid, some may ask for something in return. Uncover the stories and fates of these tortured characters to gain rewards and a deeper understanding of the dark world you inhabit.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Indie",
+					"Platform",
+					"Hack and slash/Beat 'em up"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Blasphemous",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "SureAI",
+			"app_name": "1497007810",
+			"art_cover": "https://images.gog.com/592eba5ba437feaade28a9bbcd4a9733c78bd95fee502d664500c52045454b41.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/3a4e29b13ea7f77dc617dec7ba9e23909ac587b914aa2d548fadfc717246f5ca.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/2090c57d5e4f250625c9b78744bc707b5f9efbd40fef33909bc685a61693cc32.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/726ac14e7e1b0de1aef23028d2987d29e31cd2bf1ef60b99cf4074dee466578b.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Nehrim: At Fate's Edge (<a href=\"https://www.gog.com/game/enderal_forgotten_stories\" target=\"_blank\">the predecessor of Enderal: Forgotten Stories</a>) is an <a href=\"https://www.gog.com/en/game/elder_scrolls_iv_oblivion_game_of_the_year_edition_deluxe_the\" target=\"_blank\"> total conversion for TES IV: Oblivion</a>. Explore the eponymous land of Nehrim and its dense forests and deserts, delve into ancient crypts and labyrinthine caves, and experience an unconventional, gripping storyline that unfolds beyond known patterns of good and evil.<br>\r\n<br>\r\n<img src=\"https://items.gog.com/nehrim_at_fates_edge/NehrimMap.png\"><br>\r\n<br>\r\n<b>How extensive is the world space and how has it been created?</b><br>\r\nThe land mass approximately equals the one of Oblivion. However, in Nehrim the landscape is entirely hand-built and thus has a lot more variety in it than those forests in Oblivion.<br>\r\n<br>\r\n<b>How long will it take me to beat the game?</b><br>\r\nAs opposed to Oblivion, the Main Quest, including 35 single quests, is to the fore in Nehrim. Our Main Quest isn't just much more intense than Oblivion's, but also more extensive. You can beat Oblivion in about 10 hours. This most definitely will not be possible in Nehrim. Additionally, there will be about 30 side quests.<br>\r\n<br>\r\n<b>What is the most profound difference to Oblivion?</b><br>\r\nThe skill system. In Nehrim, you level up by gaining experience points. You gain experience points by killing monsters and most of all for finishing quests. This is the best way to motivate the player to play them. At each level-up you get \"learning points\" you can trade for skill upgrades at a teacher - just as in the Gothic series.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Nehrim: At Fate's Edge",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "SureAI",
+			"app_name": "1708684988",
+			"art_cover": "https://images.gog.com/09aaa4fb98088375908a244db790dbf549b52fc38c747568578b8b22ed40fa58.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/48dde22e9a42ca26234be2f94658c5f615072d1e6526898ea3051d5b5d229f43.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/411b80612c7678c46c67a64f9c337c5ba433f592592c9d973fcf5ac6d0c5378e.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/c1c7eccbd9f79acebd4d33733587b3a7674e68fd96f9edb3fa1e1f556e2ad8d8.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Enderal is a total conversion for TES V: Skyrim: a game modification that is set in its own world with its own landscape, lore and story. It offers an immersive open world, all for the player to explore, overhauled skill systems and gameplay mechanics and a dark, psychological storyline with believable characters.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Enderal: Forgotten Stories",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Cyanide Studio",
+			"app_name": "2090261953",
+			"art_cover": "https://images.gog.com/64770ec342aee25c46a6aad10710df25b87b57bf8014983150065ce8ec9f608d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/218c812fc1d5caab8fdb5b632160bfe0a1bb0fa9bd32fbff78159ef0bd98fcb9.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/89ea5b71fdd0f8394f67970dd53228292efd550f934f946e79bdd3a7d1f2ee13.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/bd21f1ab319e0c8f5b04cb7e0a524cac4dca8a386f863c6dfae1f2632cf7e8b3.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Embark upon a stealthy adventure with new enemies, new environments, and a plethora of new mechanics aimed at refining the abilities and movement of Styx; grappling around corners, climbing ropes, and using his trusty knife as a zip-wire. Shards of Darkness aims to offer unparalleled freedom of movement, along with refined stealth and assassination mechanics, expanding and improving on the strengths of Styx: Master of Shadows",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Styx: Shards of Darkness",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "The Game Kitchen",
+			"app_name": "1747340100",
+			"art_cover": "https://images.gog.com/4258653504cb133d4e056695d9959254e32aa7587cf2380a9a5485576305e28d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/37d5cf3454252b5f8a8a80b028aceb41c90c7c03b793c452c89add5218568d55.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/3cfc49a1d19d5473d3e6e4b7ff6c02ea811a4fdc40bee7649927e24aeef9306a.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/959d64a498c09a53f9a8b3c960347427186660ad936ce3a5e72dc558c4f23596.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The Penitent One awakens as Blasphemous 2 joins him once again in an endless struggle against The Miracle. Dive into a perilous new world filled with mysteries and secrets to discover, and tear your way through monstrous foes that stand between you and your quest to end the cycle one and for all.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Indie",
+					"Platform",
+					"Hack and slash/Beat 'em up"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Blasphemous 2",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Bethesda Game Studios",
+			"app_name": "1998527297",
+			"art_cover": "https://images.gog.com/92f26454c0da2f8b119af986a52a8c0bdbc30156398354697b326042c7a5de1c.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/df5fc090aa097f10ec55ec7d88277a1a8e462fc505870f397ff0e977856b417e.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/b25ae15b78c51d400ce0460c7563fcec22cd65f566792ad48e3c38fd9b0762a3.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/a6b30383383dd9a88a1dfdfe66b38a0d6a0b5481b8996b2499603455325d7dbd.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Return to the Wasteland today with Fallout 4: Game of the Year Edition. With all the latest gameplay updates (including Survival mode), graphical enhancements, the ability to play Mods for free on PC and consoles, plus all official add-ons included, this is the ultimate way to experience the award-winning post-nuclear adventure from Bethesda Game Studios.\r\n\r\nFallout 4: Game of the Year Edition includes the fully updated original game along with all six add-ons: Nuka-World, Vault-Tec Workshop, Contraptions Workshop, Far Harbor, Wasteland Workshop and Automatron. Fallout 4: Game of the Year Edition is available now on PlayStation 4, Xbox One and PC. Be sure to reserve your copy in the upcoming weeks from select digital and physical retailers.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Fallout 4: Game of the Year Edition",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Bethesda Game Studios",
+			"app_name": "1454315831",
+			"art_cover": "https://images.gog.com/54748e54c9e0f49080b4c928765689a451f36b79113e20760ee5b3d57f6db706.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/b5803bcb5d14b2f1477c3b4d6be9dfea70d3e6047af0dd73cfde5e53285b89ad.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/11b5d020144f3ef465bc36c4d375e579fa65e2858b4f58cdd5540a049b9a6982.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/d3123954242241ddcd5137cc93c9f6c555fd29679839b25e3ccebae15a15a5c6.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Prepare for the Future with Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before. Create a character of your choosing and descend into an awe-inspiring, post-apocalyptic world where every minute is a fight for survival.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Fallout 3: Game of the Year Edition",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Bethesda Softworks",
+			"app_name": "1435828982",
+			"art_cover": "https://images.gog.com/ef6e14d32f2d094fe44414ebdf264effd8d8ca80ab238e6cbc28d342f1535422.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/bc659ae3d4dc3f16dc8e1783a63c18f0ffcbb027d2aea29ce02166b6e3150f20.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/79da8130cd0f4ae9ddf9e2bd38c732d112517f0f1ff3df101e2ade79f9f9dcc0.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/aae1b9f50d46bee1525ef94bfa5cfb06b49dd05f873ec4ab3e61c43bf60f0f56.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The Elder Scrolls - Arena is the first RPG fantasy game of the Elder Scrolls series.\nThe game takes place on a planet called Nirn in the empire of Tamriel. The emperor of Tamriel, Uriel Septim, is planing to gather the whole Nirn under the imperial flag. He allies himself with the mage Jagar Tharn who is unfortunately intent on stealing the emperor's throne. Jagar Tharn imprisons the emperor in another dimension and locks the key inside a dungeon under the imperial city. Your job is to find all the pieces of the key, reassemble it, kill Jagger Tharn and free the emperor.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Elder Scrolls: Arena",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "CD Projekt RED",
+			"app_name": "1423049311",
+			"art_cover": "https://images.gog.com/21bb7830e75e529e0a276debeaff132c2062ea08864dee57eef579d4057e2d52.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/8b37ef624d6f8a4092c43daed92660cde499434f8c0a2078f342bc34f4e752f2.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/b6cd05d236181817eddd6cba234275eb9e7957e2e04214c3ac7a281d88521f9c.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/d874e44db18f4604f25934fe141043812e21f20733072b3f2eded2014a4308f7.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The RPG from CD Projekt RED based on the Cyberpunk 2020 tabletop RPG created by Mike Pondsmith. \r\n \r\nIn Cyberpunk 2077 you play as V — a hired gun on the rise — and you just got your first serious contract. In a world of cyberenhanced street warriors, tech-savvy netrunners and corporate lifehackers, today you take your first step towards becoming an urban legend.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Cyberpunk 2077",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Bethesda Softworks",
+			"app_name": "1435829353",
+			"art_cover": "https://images.gog.com/6ecbe19f18ee42bf0f43cb4a9e55e714d21282bcc660453570e36e259a8d75bc.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/8cc4d6705ba01454f947015200f699ab1c1e8cde5eaf217bda5619d7fc06aab7.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/fb3d28325eb1bc700e2fbe982638c85f7180de68f50da472f109e9c22b0cc8ae.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/d86a57d6471bfd4c36a77b835198324d31d1e1c0f4639f695b38d91090e0f7c2.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The Elder Scrolls - Daggerfall is the second fantasy RPG from The Elder Scrolls series. The game is situated in a city of Daggerfall and its surrounding areas. The emperor himself asked you, as your friend, to investigate the death of King Lysandus. The whole story is up to you. There is no straight line which you should follow. you have a number of options for character classes and numerous regions filled with cities, towns, and dungeons. \r\n \r\nYour journey starts on your way to the Kingdom of Daggerfall. Unfortunately your ship is wrecked in a storm and you end up in a small cave with only your bare life. Your first goal becomes to escape, and so your adventure begins. The game has a numerous options how to solve the crisis and numerous differed endings as well.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Elder Scrolls II: Daggerfall",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Double Damage Games",
+			"app_name": "1435582019",
+			"art_cover": "https://images.gog.com/2261e3c2949c5b2dcd537cc4a2f3c8872f4c1004dec5a65e837e356fcda030d7.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/558a4d224bc9f17cf8ee2e27490e566f00f4441d58d14dad725c7eb45b1ee335.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/561eb7bbdc15fea1a6de7ad4361876344eaa37dbbc38b4e441a26a0b194f5c71.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/0fc04fa5c8860cbd2450689c84588f3572dc650560bdf28bee488afc3ccd45d2.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Rebel Galaxy is an action-packed, swashbuckling space opera. You'll battle pirates, explore anomalies, befriend aliens, scavenge battle wreckage, mine asteroids, and discover artifacts. Choose your path as a roguish do-gooder, crafty space-trader or power-hungry privateer - or maybe a little of each! Buy larger and more powerful craft with your hard-earned credits, and outfit them with a variety of wicked weapons and defenses. Set in a galaxy of fantastic sights, and secrets to be found, Rebel Galaxy is above all a space epic of adventure, exploration, and combat.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Strategy",
+					"Indie",
+					"Simulator"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Rebel Galaxy",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "4A Games",
+			"app_name": "1436434037",
+			"art_cover": "https://images.gog.com/e94f46d7ea331f6106c4433c4295c682cbee1a877900cc59d058cd78622b399f.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/cf395cec43f3cdc4594d9d096ebfdc7f56b9248d81654e89579a460491676616.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/e755f671c9b43a2a4ff738a4118c2be5322542336c11b75db6a180eae0d0161c.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/cf395cec43f3cdc4594d9d096ebfdc7f56b9248d81654e89579a460491676616.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Metro Redux is the ultimate double game collection, including the definitive versions of both Metro 2033 and Metro: Last Light, each rebuilt in the latest and greatest iteration of the 4A Engine for next-gen consoles and PC. \r\n \r\nFor the first time, console owners can expect smooth 60FPS gameplay and state of the art visuals that were once only available on high-end PC hardware. \r\n \r\nNewcomers to the series will get the chance to experience two of the finest story-driven shooters of all time in one vast package; an epic adventure combining gripping survival horror, exploration and tactical combat and stealth. \r\n \r\nFans of the original games will find the unique world of Metro transformed with incredible new lighting, physics and dynamic weather effects, as well as a host of gameplay improvements and new features.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Metro 2033 Redux",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Crate Entertainment",
+			"app_name": "1449651388",
+			"art_cover": "https://images.gog.com/e46fd2eac78f916750a32585c96f3daa7b0e8ce5783a8663f298b13553550c5e.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/5815575bb29852eb3adcfa2c1ef2a610a9395342e1bbf2812e0e38e9a203b8be.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/1382c3bc58ff97498470dba53ad16b4afb70f9d8e487aae2e6a2974003c25ac1.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/2921e76185eeac4371d8e1ac5dee35aa63e3aaf2da0fc43b9d67f6ffd9b721e7.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Indie",
+					"Hack and slash/Beat 'em up"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Grim Dawn",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Bethesda Game Studios",
+			"app_name": "1248282609",
+			"art_cover": "https://images.gog.com/54748e54c9e0f49080b4c928765689a451f36b79113e20760ee5b3d57f6db706.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/b5803bcb5d14b2f1477c3b4d6be9dfea70d3e6047af0dd73cfde5e53285b89ad.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/11b5d020144f3ef465bc36c4d375e579fa65e2858b4f58cdd5540a049b9a6982.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/d3123954242241ddcd5137cc93c9f6c555fd29679839b25e3ccebae15a15a5c6.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Prepare for the Future with Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before. Create a character of your choosing and descend into an awe-inspiring, post-apocalyptic world where every minute is a fight for survival.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Fallout 3: Game of the Year Edition",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Devespresso Games",
+			"app_name": "1075740587",
+			"art_cover": "https://images.gog.com/1f0acd9d2aef93e05b664515bda091adee9d2605689be76d8ffd463b0c398b0e.webp?namespace=gamesdb",
+			"art_square": "https://images.gog.com/960547e20c8bb3cfaa05491032557974d8fb4611d189fcf0b2348d997def998c.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/1f0acd9d2aef93e05b664515bda091adee9d2605689be76d8ffd463b0c398b0e.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/b8f8ae16c455a96ce185e5be4e93f69d709a8ea50d08d1e1599c998ea39509fb.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Vambrace: Cold Soul is a roguelike fantasy-adventure set amidst a frozen landscape. Plan your expeditions underground, then journey to the cursed city surface with your team of heroes. Wield unique powers, avoid dangerous traps, brave strange encounters, and survive deadly combat!",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Strategy",
+					"Turn-based strategy (TBS)",
+					"Indie"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Vambrace: Cold Soul",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "Team FOLON®",
+			"app_name": "1491728574",
+			"art_cover": "https://images.gog.com/a557fa41364e6d06bfe3fca629755b8371af04082645186fd6fdd55c70aaf147.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/a763950d7039103bebdcd6ebd92144ee19ddecbbd4d9cdfee4775aadc965fb01.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/0ac949e2aa519f1f34f7b5e9c9393d56a8b397587329ca7f42491c633cf95922.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/6215b457aefcbe90737be746b9668d04d54141a3b4cd7dd2176ae79cd4d4475b.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "There has never been a better time to sample the capital’s delights! Fallout: London lets you explore the wonders of the city 160 years after the bombs have dropped, and 40 years before the events of Fallout 3. You can now reimagine Fallout in a London-centric universe, interacting with a brave new world of London-based locations, stories, factions, creatures, weapons, and gameplay mechanics.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Fallout: London",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Games Farm",
+			"app_name": "1442285576",
+			"art_cover": "https://images.gog.com/3ccd0fca4f438a1c2ff4cd109f824558cf7c1d879e675801011ac59cb85747a1.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/a0b110b14c954afb4f084bc46c907f1d482693b6f9b0adb369f296e8fe33e3e8.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/8166a2c8c245e483d7741d084e6904bf815db79e6c4997333e321f0de38fcf58.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/15bb49e36d7ef79b10c885b8626d0dca1755c9da9be36c4ab5831ab236d09ceb.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Shadows: Awakening is a unique, isometric single-player RPG with real-time tactical combat. You embark on an epic adventure with challenging gameplay, a gripping storyline and enchanting graphics.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Hack and slash/Beat 'em up"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Shadows: Awakening",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Volition Inc",
+			"app_name": "2029222893",
+			"art_cover": "https://images.gog.com/687a23e3c6267c009437101eac418ea4e2be1ded0e4182e0c1604092e61ef442.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/7f5faa156c6392568203126f3b76c21f5c5669537e94e3ca307a4604f74f4534.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/8d198c39c46cd75d10de1d0bdbad20da8d754ebc45f130686fbc982998cade0d.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/7f5faa156c6392568203126f3b76c21f5c5669537e94e3ca307a4604f74f4534.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Set 50 years after the climactic events of the original Red Faction, Red Faction: Guerrilla allows players to take the role of an insurgent fighter with the newly re-established Red Faction movement as they battle for liberation from the oppressive Earth Defense Force. Red Faction: Guerrilla re-defines the limits of destruction-based game-play with a huge open-world, fast-paced guerrilla-style combat, and true physics-based destruction. \n \nKey Features \n \nOpen World Guerrilla Warfare - You decide who, when, where and how to battle. Utilize guerrilla tactics, improvised weaponry, and modified vehicles to lead insurgent attacks on EDF targets. Launch attacks based on your own gameplay style, take on missions in any order you choose, or engage in destructive activities to weaken the EDF's grip on Mars. \n \nStrategic Destruction - Use destruction to your tactical advantage, setting ambushes or chain reaction explosions to attack enemy strongholds and permanently modify the game environment. Leverage fully-dynamic physics-based destruction to improvise on the fly: blow holes in a wall or floor to set an ambush or escape, take out a staircase to stop your pursuers, or drive vehicles through blown out walls. \n \nEvolving & Emergent Gameplay - Carve your path through an ever changing landscape as you improvise your combat tactics - mixing gameplay styles, vehicles, weapons and explosives to defeat the EDF. \n \nEpic Sci-Fi Setting - Explore the huge, unforgiving Martian landscape, from the desolate mining outpost of Parker to the gleaming EDF capital city of Eos; then tear through the fully destructible open-world environments swarming with EDF forces, Red Faction resistance fighters, and the downtrodden settlers caught in the cross-fire. \n \nMultiplayer Combat - There is no place to hide when you put your guerrilla warfare skills to the test in a variety of highly destructive multiplayer combat modes. \n \nRe-Mars-tered Features \n \nFully reworked graphics – Heavily reworked textures and graphic features adding for example specular maps. \n \nImproved shadow rendering \n \nImproved Lighting \n \nShader & Postprocessing rework \n \nNative 4k support for the finest up to date mars destruction experience ever",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Red Faction Guerrilla Re-Mars-tered",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Bethesda Game Studios",
+			"app_name": "1458058109",
+			"art_cover": "https://images.gog.com/e07fd2011db02cedb6e3d1b795c1b92a1b2c9de0c04971fcffc0290f7a9a760b.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/15c40e319b2c9248e954391b6933bd68489e280ae9c808fec5144e969f64050d.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/07670e549c7867826cc4b40e900ce9f0204169d030f4d93d37c89eb9ae46553d.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/15c40e319b2c9248e954391b6933bd68489e280ae9c808fec5144e969f64050d.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The Elder Scrolls IV: Oblivion Game of the Year Edition presents one of the best RPGs of all time like never before. Step inside the most richly detailed and vibrant game-world ever created. With a powerful combination of freeform gameplay and unprecedented graphics, you can unravel the main quest at your own pace or explore the vast world and find your own challenges.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Elder Scrolls IV: Oblivion - Game of the Year Edition Deluxe",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "CD Projekt RED",
+			"app_name": "1207658924",
+			"art_cover": "https://images.gog.com/3a4d9190f3c0a0a8d63638193ef8c9af2ba58eb0b250295db2a28bccf852a76d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/7fbb815727527616881cb45a56f51a19e90ddf21ba00c9e22b4852d9bec6324a.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/fc1c44b2252e3200db66872630f7e21687bba217b6eabb188451556b5941cf63.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/7fbb815727527616881cb45a56f51a19e90ddf21ba00c9e22b4852d9bec6324a.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Now you can experience this fantastic RPG on Mac and PC!",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Witcher: Enhanced Edition",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "CD Projekt RED",
+			"app_name": "1495134320",
+			"art_cover": "https://images.gog.com/218935add6c0d3322f7ce08dcaaaa9d2578fa869f45f34b9d8ad7c64a5b00146.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/e030ace5195d05399ad86d6022bcfc9ddfbb0d83b318eb9cabc46707a35a8533.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/d4dcbad8151f8acf3d8316c82c62a9f132833d77a384c5523cac0e0bcea80f06.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/9da841d5db6520c1e6ef418ee592b873698f19c2654e70cb30db896957d2cf9c.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Become a professional monster slayer and embark on an adventure of epic proportions! Upon its release, The Witcher 3: Wild Hunt became an instant classic, claiming over 250 Game of the Year awards. Now you can enjoy this huge, over 100-hour long, open-world adventure along with both its story-driven expansions worth an extra 50 hours of gameplay. This edition includes all additional content - new weapons, armor, companion outfits, new game mode and side quests.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Witcher 3: Wild Hunt - Complete Edition",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Slormite Studios",
+			"app_name": "1854584058",
+			"art_cover": "https://images.gog.com/a8ee45534f3450b31bfdaab5fd2c96cbbbbfebaada4cf6260e03722a24ed3005.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/e0da071fdf3dab3e0e200655206b1ed1c82d527aee474101e9cc6db3b3c52ef5.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/035b65a8244deecec42a762c7c24f071fbdc54f8698c63c7407ddde77885d49d.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/54c7a30b5354231503a60e07b9242bbbe5e2d87932f4e55407a98209684df612.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Fight hordes of enemies lead by The Slormancer, an evil warlock from the past, in an absurd yet epic Action RPG! Featuring loads of shiny loot, tons of collectibles, countless hours of content, a frenetic gameplay and carefully crafted pixel art.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Indie"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Slormancer",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Bethesda Game Studios",
+			"app_name": "1711230643",
+			"art_cover": "https://images.gog.com/a112343cc2d49d10c6b98fe3d682e84841319878db279705d2c84286679ba25e.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/5d886301727cc4c38fff28040c97a9b5a9f1060431d5349b2c9cccf60d8a36b9.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/6eb588aa284467ae02d58ce5827cccfc71fd89bc1fc782f9a8ef741c5d6b5a6f.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/5d886301727cc4c38fff28040c97a9b5a9f1060431d5349b2c9cccf60d8a36b9.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Winner of more than 200 Game of the Year Awards, Skyrim Special Edition brings the epic fantasy to life in stunning detail. The Special Edition includes the critically acclaimed game and add-ons with all-new features like remastered art and effects, volumetric god rays, dynamic depth of field, screen-space reflections, and more.\r\n\r\nEPIC FANTASY REBORN\r\nSkyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.\r\n\r\nLIVE ANOTHER LIFE, IN ANOTHER WORLD\r\nPlay any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before.\r\n\r\nYOU ARE WHAT YOU PLAY\r\nChoose from hundreds of weapons, spells, and abilities. The new character system allows you to play any way you want and define yourself through your actions.\r\n\r\nBATTLE DRAGONS\r\nBattle ancient dragons like you’ve never seen. As Dragonborn, learn their secrets and harness their power for yourself.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Elder Scrolls V: Skyrim Special Edition",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		}
+	],
+	"__timestamp": {
+		"games": "Sun Jul 27 2025 09:50:46 GMT+0900 (Japan Standard Time)"
+	}
+}

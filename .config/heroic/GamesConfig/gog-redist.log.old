@@ -1,0 +1,4 @@
+(09:50:40) [INFO]:    GOG REDIST:: GOGDL_CONFIG_PATH=/home/shota/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/shota/.config/heroic/gog_store/auth.json redist --ids ISI --path /home/shota/.config/heroic/tools/redist/gog 
+
+(09:50:40) [INFO]:    Game Output:
+[API] INFO: Getting Dependencies repository

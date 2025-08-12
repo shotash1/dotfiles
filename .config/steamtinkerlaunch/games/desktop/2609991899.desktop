@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=launchmod_eldenring.bat
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/2609991899
+Icon=/home/shota/.config/steamtinkerlaunch/games/header/2609991899.jpg
+Terminal=false
+Type=Application
+Categories=Game;

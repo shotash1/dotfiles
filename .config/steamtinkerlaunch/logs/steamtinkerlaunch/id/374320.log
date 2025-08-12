@@ -1,0 +1,517 @@
+Wed Jul 30 19:09:04 JST 2025 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '374320'
+Wed Jul 30 19:09:04 JST 2025 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/shota/.local/share/Steam/steamapps/compatdata/374320'
+Wed Jul 30 19:09:04 JST 2025 INFO - loadLangFile - Language from command line is 'english'
+Wed Jul 30 19:09:04 JST 2025 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Wed Jul 30 19:09:04 JST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Wed Jul 30 19:09:04 JST 2025 INFO - loadLangFile - Loading found system wide /usr/share/steamtinkerlaunch/lang//english.txt
+Wed Jul 30 19:09:05 JST 2025 INFO - getCurrentCommandline - No Proton in command line arguments 'waitforexitandrun /home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 19:09:05 JST 2025 INFO - saveOrgVars - Storing some original variables to restore them later
+Wed Jul 30 07:09:05 PM JST 2025 INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+Wed Jul 30 07:09:05 PM JST 2025 INFO - emptyVars - Set $PATH to '/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:'
+Wed Jul 30 07:09:05 PM JST 2025 START - ######### Initializing Game Launch 374320 using SteamTinkerLaunch v12.12 #########
+Wed Jul 30 07:09:05 PM JST 2025 INFO - main - Starting with a clean log
+Wed Jul 30 07:09:05 PM JST 2025 INFO - main - Start creating default configs
+Wed Jul 30 07:09:05 PM JST 2025 INFO - createDefaultCfgs - START
+Wed Jul 30 07:09:05 PM JST 2025 INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+Wed Jul 30 07:09:05 PM JST 2025 INFO - loadLangFile - Language from command line is 'english'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Wed Jul 30 07:09:05 PM JST 2025 INFO - loadLangFile - Loading found system wide /usr/share/steamtinkerlaunch/lang/english.txt
+Wed Jul 30 07:09:05 PM JST 2025 INFO - loadLanguage - Loading STLLANG from '/home/shota/.config/steamtinkerlaunch/global.conf'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - loadLanguage - STLLANG from '/home/shota/.config/steamtinkerlaunch/global.conf' is 'english'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - createDefaultCfgs - setSteamPaths:
+Wed Jul 30 07:09:05 PM JST 2025 INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getGameOS - Starting game OS detection
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getGameOS - Making some checks on '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe' to determine the OS version of the game
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getGameOS - Looks like this is a Windows game!
+Wed Jul 30 07:09:05 PM JST 2025 INFO - setWin - 'DarkSoulsIII' determined to be a Windows Game
+Wed Jul 30 07:09:05 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - createDefaultCfgs - createProtonList:
+Wed Jul 30 07:09:05 PM JST 2025 INFO - createProtonList - Looking for available Proton versions
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:05 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - createDefaultCfgs - createProtonList end
+Wed Jul 30 07:09:05 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:05 PM JST 2025 INFO - createProtonList - Looking for available Proton versions
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:06 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:06 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+Wed Jul 30 07:09:06 PM JST 2025 INFO - createDefaultCfgs - STOP
+Wed Jul 30 07:09:06 PM JST 2025 SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/shota/.local/share/Steam/steamapps'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared:/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64:/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64:/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared:/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - main - Checking internal dependencies:
+Wed Jul 30 07:09:06 PM JST 2025 INFO - checkIntDeps - Result of version check for yad binary '/sbin/yad' is '14.1'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - main - Initializing first Proton:
+Wed Jul 30 07:09:06 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - initFirstProton - Initializing Proton
+Wed Jul 30 07:09:06 PM JST 2025 INFO - initFirstProton - No Proton version available in template yet - searching for one
+Wed Jul 30 07:09:06 PM JST 2025 INFO - createProtonList - Looking for available Proton versions
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:06 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:06 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - initFirstProton - Updated 'USEPROTON' in '/home/shota/.config/steamtinkerlaunch/default_template.conf' to ''
+Wed Jul 30 07:09:06 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:06 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:06 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/shota/.config/steamtinkerlaunch/default_template.conf' is ''
+Wed Jul 30 07:09:06 PM JST 2025 INFO - main - Initializing default window resolution
+Wed Jul 30 07:09:06 PM JST 2025 INFO - setInitWinXY - Using '1920x1080' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - main - Welcome to SteamTinkerLaunch
+Wed Jul 30 07:09:06 PM JST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/shota/.config/steamtinkerlaunch/games/appinfo'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - removeEmptyFiles - Removing empty files from '/home/shota/.config/steamtinkerlaunch/games/header'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - main - Checking command line: incoming arguments 'waitforexitandrun /home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:09:06 PM JST 2025 SKIP - getGameOS - ISGAME is already set to '2' - nothing to determine
+Wed Jul 30 07:09:06 PM JST 2025 INFO - linkLog - Symlink '/home/shota/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/DARK SOULS III.log' already exists
+Wed Jul 30 07:09:06 PM JST 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/shota/.config/steamtinkerlaunch/games/appinfo/374320.bin'
+Wed Jul 30 07:09:06 PM JST 2025 START - ######### Game Launch: DARK SOULS III (374320) #########
+Wed Jul 30 07:09:06 PM JST 2025 INFO - prepareLaunch - Game launch args '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - prepareLaunch - Gamedir '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - prepareLaunch - Proton wineprefix '/home/shota/.local/share/Steam/steamapps/compatdata/374320/pfx'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - prepareLaunch -------------------
+Wed Jul 30 07:09:06 PM JST 2025 INFO - prepareLaunch - CreateGameCfg:
+Wed Jul 30 07:09:06 PM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' already at version 'v12.12'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/DARK SOULS III.conf' already exists
+Wed Jul 30 07:09:06 PM JST 2025 INFO - prepareLaunch - First LoadCfg: /home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf
+Wed Jul 30 07:09:06 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' START
+Wed Jul 30 07:09:06 PM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf'
+Wed Jul 30 07:09:06 PM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/374320.conf' does not exist - nothing to do
+Wed Jul 30 07:09:06 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' STOP
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - autoBumpReShade - '5.4.2' is the latest version of 'ReShade' - not updating
+Wed Jul 30 07:09:07 PM JST 2025 INFO - prepareLaunch - Initial Proton version from the game config: 'none'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - fixProtonVersionMismatch - Incoming category is 'USEPROTON' with value 'none'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - fixProtonVersionMismatch - Looking for an alternative similar version for 'none'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - fixProtonVersionMismatch - Automatically selecting newest official one
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setNOP - Selecting newest official Proton available
+Wed Jul 30 07:09:07 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - createProtonList - Looking for available Proton versions
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - setNOP - Haven't found anything
+Wed Jul 30 07:09:07 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - fixProtonVersionMismatch - Automatically updating USEPROTON to 'none' in '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - updateConfigEntry - Option 'USEPROTON' is updated with the new value 'none' in config '374320.conf'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - prepareLaunch - Initializing internal Proton Vars for 'none' using setNewProtVars
+Wed Jul 30 07:09:07 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setNewProtVars - Setting new Proton Variables based on ''
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setNewProtVars - Continuing with RUNPROTON=''
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - setRunProtonFromUseProton - USEPROTON is empty
+Wed Jul 30 07:09:07 PM JST 2025 WARN - setRunWineServer - Couldn't find the wine binary for the proton in path '' - falling back to 'wine' for plain RUNWINE and 'wineserver' for RUNWINESERVER
+Wed Jul 30 07:09:07 PM JST 2025 INFO - prepareLaunch - OpenTrayIcon:
+Wed Jul 30 07:09:07 PM JST 2025 INFO - autoCollectionSettings - Searching collections for game '374320' in '/home/shota/.local/share/Steam/userdata/1617376426/7/remote/sharedconfig.vdf'
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setShaderDest - Determining Shader destination directory SHADDESTDIR
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setShaderDest - Using variable ABSGAMEEXEPATH for Shader destination directory '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setShaderDest - Using Shader destination directory '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setShaderDest - Shader destination directory is '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game' for 'SHADDESTDIR'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - openTrayIcon - Opening trayIcon:
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setRunWineServer - Initiated from 'TrayIconExports'
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - setRunProtonFromUseProton - USEPROTON is empty
+Wed Jul 30 07:09:07 PM JST 2025 WARN - setRunWineServer - Couldn't find the wine binary for the proton in path '' - falling back to 'wine' for plain RUNWINE and 'wineserver' for RUNWINESERVER
+Wed Jul 30 07:09:07 PM JST 2025 INFO - prepareLaunch - sortGameArgs:
+Wed Jul 30 07:09:07 PM JST 2025 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Jul 30 07:09:07 PM JST 2025 INFO - prepareLaunch - AskSettings:
+Wed Jul 30 07:09:07 PM JST 2025 INFO - askSettings - Using game specific requester timeout '20'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - askSettings - Opening Requester with timeout '20'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/shota/.local/share/Steam/steamapps/compatdata/374320/pfx/drive_c/users/steamuser'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - pollWinRes - Using GEOM '--geometry=1920x1080+0+0' from '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/374320/SteamTinkerLaunch-OpenSettings.conf'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/374320/SteamTinkerLaunch-OpenSettings.conf' with incoming '1920x1080'
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setShowPic - Determining game picture
+Wed Jul 30 07:09:07 PM JST 2025 INFO - setShowPic - Using '/home/shota/.config/steamtinkerlaunch/games/header/374320.jpg' as game picture
+Wed Jul 30 07:09:07 PM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Jul 30 07:09:07 PM JST 2025 WARN - getProtonDBRating - Can't get data from 'https://www.protondb.com/api/v1/reports/summaries/374320.json' because 'jq' is not installed
+Wed Jul 30 07:09:07 PM JST 2025 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Wed Jul 30 07:09:07 PM JST 2025 INFO - askSettings - Could not retrieve Steam Deck compatibility rating, defaulting to Unknown - Maybe 'jq' is missing or we are offline?
+Wed Jul 30 07:09:07 PM JST 2025 INFO - askSettings - Steam Deck compatibility rating string is '<b>Steam Deck Compatibility:</b> '
+Wed Jul 30 07:09:07 PM JST 2025 INFO - askSettings - Preparing to show Wait Requester
+Wed Jul 30 07:09:08 PM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Jul 30 07:09:09 PM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - MainMenu - Preparing to load Main Menu
+Wed Jul 30 07:09:10 PM JST 2025 SKIP - createDLSpekList - Skipping looking for available SpecialK versions, because USESPECIALK is disabled
+Wed Jul 30 07:09:10 PM JST 2025 INFO - createDLReShadeList - Found the following 'ReShade' versions online '6.5.1!6.5.0!6.4.1'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - prepareMenu - Opening Menu
+Wed Jul 30 07:09:10 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' START
+Wed Jul 30 07:09:10 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' STOP
+Wed Jul 30 07:09:10 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' START
+Wed Jul 30 07:09:10 PM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/374320.conf' does not exist - nothing to do
+Wed Jul 30 07:09:10 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' STOP
+Wed Jul 30 07:09:10 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' START
+Wed Jul 30 07:09:10 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' STOP
+Wed Jul 30 07:09:10 PM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' already at version 'v12.12'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/DARK SOULS III.conf' already exists
+Wed Jul 30 07:09:10 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - createProtonList - Looking for available Proton versions
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:10 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:10 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/shota/.local/share/Steam/steamapps/compatdata/374320/pfx/drive_c/users/steamuser'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - setShowPic - Determining game picture
+Wed Jul 30 07:09:10 PM JST 2025 INFO - setShowPic - Using '/home/shota/.config/steamtinkerlaunch/games/header/374320.jpg' as game picture
+Wed Jul 30 07:09:10 PM JST 2025 INFO - setOPCustPath - Default path for custom exe file requester is '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - pollWinRes - Using GEOM '--geometry=1920x1080+0+0' from '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/374320/SteamTinkerLaunch-MainMenu.conf'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/374320/SteamTinkerLaunch-MainMenu.conf' with incoming '1920x1080'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/shota/.config/steamtinkerlaunch/games/appinfo/374320.bin'
+Wed Jul 30 07:09:10 PM JST 2025 WARN - prepareSteamDeckCompatInfo - Can't get Steam Deck compatibility information because 'jq' is not installed
+Wed Jul 30 07:09:10 PM JST 2025 INFO - MainMenu - Game Info Gotten!
+Wed Jul 30 07:09:10 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - createProtonList - Looking for available Proton versions
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:10 PM JST 2025 SKIP - updateWinRes - Timeout waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Jul 30 07:09:10 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:10 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:10 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:11 PM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Wed Jul 30 07:09:12 PM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-MainMenu'
+Wed Jul 30 07:09:13 PM JST 2025 SKIP - updateWinRes - Timeout waiting for Window 'SteamTinkerLaunch-MainMenu'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - MainMenu - Clicked '6' - 'GAME MENU'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - MainMenu - exiting 'Settings Menu' and opening 'Game Menu'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - prepareMenu - Opening Menu
+Wed Jul 30 07:09:14 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' START
+Wed Jul 30 07:09:14 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/global.conf' STOP
+Wed Jul 30 07:09:14 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' START
+Wed Jul 30 07:09:14 PM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/374320.conf' does not exist - nothing to do
+Wed Jul 30 07:09:14 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' STOP
+Wed Jul 30 07:09:14 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' START
+Wed Jul 30 07:09:14 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/url.conf' STOP
+Wed Jul 30 07:09:14 PM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' already at version 'v12.12'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/DARK SOULS III.conf' already exists
+Wed Jul 30 07:09:14 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - createProtonList - Looking for available Proton versions
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:14 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:14 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/shota/.local/share/Steam/steamapps/compatdata/374320/pfx/drive_c/users/steamuser'
+Wed Jul 30 07:09:14 PM JST 2025 SKIP - updateConfigFile - Config file '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' already at version 'v12.12'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - linkGameCfg - Symlink '/home/shota/.config/steamtinkerlaunch/gamecfgs/title/DARK SOULS III.conf' already exists
+Wed Jul 30 07:09:14 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - createProtonList - Looking for available Proton versions
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:09:14 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:09:14 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - createWineList - Updating the Wine Dropdown List
+Wed Jul 30 07:09:14 PM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/374320.conf' does not exist - nothing to do
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - pollWinRes - Using GEOM '--geometry=1920x1080+0+0' from '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/374320/SteamTinkerLaunch-launchGameMenu.conf'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/374320/SteamTinkerLaunch-launchGameMenu.conf' with incoming '1920x1080'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - openMenu - Starting createMenu "/dev/shm/steamtinkerlaunch/menutemp/gamemenu" "launchGameMenu" "/home/shota/.config/steamtinkerlaunch/games/header/374320.jpg" "EMPTY" "EMPTY" "Settings for game 'DARK SOULS III (374320)'" "MainMenu" "MENU_GAME"
+Wed Jul 30 07:09:14 PM JST 2025 INFO - createMenu - got '9' elements: '0 /dev/shm/steamtinkerlaunch/menutemp/gamemenu launchGameMenu /home/shota/.config/steamtinkerlaunch/games/header/374320.jpg EMPTY EMPTY Settings for game 'DARK SOULS III (374320)' MainMenu MENU_GAME'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - createMenu - Creating menu template '/dev/shm/steamtinkerlaunch/menutemp/gamemenu-template'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getFilteredEntries - No blocked elements found in '/home/shota/.config/steamtinkerlaunch/menublock.conf' - working with '/dev/shm/steamtinkerlaunch/rawentries.txt'
+Wed Jul 30 07:09:14 PM JST 2025 INFO - getFilteredEntries - Sort config '/home/shota/.config/steamtinkerlaunch/menusort.conf' found - sorting
+Wed Jul 30 07:09:14 PM JST 2025 INFO - openMenu - Currently used tempfile is '/dev/shm/steamtinkerlaunch/menu.BqgoJKue'
+Wed Jul 30 07:09:15 PM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Wed Jul 30 07:09:16 PM JST 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Wed Jul 30 07:09:17 PM JST 2025 SKIP - updateWinRes - Timeout waiting for Window 'SteamTinkerLaunch-launchGameMenu'
+Wed Jul 30 07:13:26 PM JST 2025 INFO - openMenu - Clicked '8' - 'SAVE AND PLAY'
+Wed Jul 30 07:13:26 PM JST 2025 INFO - openMenu - exiting 'Favorite Menu' and opening 'Game Start'
+Wed Jul 30 07:13:26 PM JST 2025 INFO - openMenu - Saving config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' and starting the game
+Wed Jul 30 07:13:26 PM JST 2025 INFO - saveMenuEntries - Saving changed Settings
+Wed Jul 30 07:13:26 PM JST 2025 INFO - saveMenuEntries - Clearing Results array with '0' elements
+Wed Jul 30 07:13:26 PM JST 2025 INFO - saveMenuEntries - Pulling values from tempfile '/dev/shm/steamtinkerlaunch/menu.BqgoJKue'
+Wed Jul 30 07:13:27 PM JST 2025 INFO - updateConfigEntry - Option 'USEPROTON' is updated with the new value 'GE-Proton10-10' in config '374320.conf'
+Wed Jul 30 07:13:27 PM JST 2025 INFO - updateConfigEntry - Option 'RSOVRVERS' is updated with the new value '6.4.1' in config '374320.conf'
+Wed Jul 30 07:13:27 PM JST 2025 INFO - updateConfigEntry - Option 'MAHUBIN' is updated with the new value '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/none' in config '374320.conf'
+Wed Jul 30 07:13:27 PM JST 2025 INFO - saveMenuEntries - Done with Saving changed Settings
+Wed Jul 30 07:13:27 PM JST 2025 INFO - startSteamGame - Starting game
+Wed Jul 30 07:13:27 PM JST 2025 INFO - goBackToPrevFunction - 'MainMenu' closed
+Wed Jul 30 07:13:27 PM JST 2025 INFO - prepareLaunch - Second LoadCfg after menus: /home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf
+Wed Jul 30 07:13:27 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' START
+Wed Jul 30 07:13:27 PM JST 2025 INFO - loadCfg - Loading game config '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - migrateCfgOption - File '/home/shota/.config/steamtinkerlaunch/dxvk/374320.conf' does not exist - nothing to do
+Wed Jul 30 07:13:28 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/gamecfgs/id/374320.conf' STOP
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Wed Jul 30 07:13:28 PM JST 2025 INFO - autoCollectionSettings - Searching collections for game '374320' in '/home/shota/.local/share/Steam/userdata/1617376426/7/remote/sharedconfig.vdf'
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - symlinkSteamUser:
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - symlinkSteamUser - '/home/shota/.local/share/Steam/steamapps/compatdata/374320/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - restoreSteamUser:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Wed Jul 30 07:13:28 PM JST 2025 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - prepareProton:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareProton - setNewProtVars, because 'GE-Proton10-10' != 'none'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setNewProtVars - Setting new Proton Variables based on '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setNewProtVars - Continuing with RUNPROTON='/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setRunWineServer - Set the wine binary for proton in path '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setRunWineServer - to '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/files/bin/wine'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setRunWineServer - and wineserver to '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/files/bin/wineserver'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - setLinGameVals :
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - CheckTweakLaunch:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkXliveless:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - chooseWinetricks:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkExtDeps:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkExtDeps done
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - setWineVars:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - CheckWinetricksLaunch:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - CheckWineCfgLaunch:
+Wed Jul 30 07:13:28 PM JST 2025 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - CustomRegs:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - TogWindows:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - StateSteamWebHelper:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - InstallReshade:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - installDepth3DReshade:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkReshade:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - autoCollectionSettings - Searching collections for game '374320' in '/home/shota/.local/share/Steam/userdata/1617376426/7/remote/sharedconfig.vdf'
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game' for 'SHADDESTDIR'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - useSpecialK:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game' for 'SPEKDDIR'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - configureGeoElf:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directroy as the ReShade installation directory
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game' for 'GEOELFDDIR'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - ChooseShaders:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - UseNyrnaz:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - UseReplay:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - CheckSBSVRLaunch:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkMO2:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - setNewRes:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - customUserScriptStart:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - redirectSCDP:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - redirectSCDP - Using Proton version with minor version fix 'GE-Proton10-10' for compatdata directory name
+Wed Jul 30 07:13:28 PM JST 2025 INFO - redirectSCDP - Using regular compatdata '/home/shota/.local/share/Steam/steamapps/compatdata/374320'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkIGCSInjector:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkOpenVRFSR:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - CheckFWS:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - loadCustomVars - Empty global config '/home/shota/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Wed Jul 30 07:13:28 PM JST 2025 INFO - loadCustomVars - Empty game-specific config '/home/shota/.config/steamtinkerlaunch/gamecfgs/customvars/374320.conf' for user defined custom variables not loaded
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - CheckCustomLaunch:
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - checkCustomLaunch - USECUSTOMCMD is '0' therefore skipping the custom program '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkUUUPatchLaunch:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - CheckStraceLaunch:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - CheckNetMonLaunch:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkWDIB:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkPulse:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - checkSteamAppIDFile:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/steam_appid.txt' - nothing to do
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - setCompatDataTitle:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setCompatDataTitle - Symlink /home/shota/.config/steamtinkerlaunch/compatdata/DARK SOULS III already exists
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setCompatDataTitle - Symlink '/home/shota/.config/steamtinkerlaunch/compatdata/DARK SOULS III' already points to the correct directory '/home/shota/.local/share/Steam/steamapps/compatdata/374320'
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - delayGameForCustomLaunch - Nothing to do
+Wed Jul 30 07:13:28 PM JST 2025 INFO - prepareLaunch - launchSteamGame:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - launchSteamGame - Initial game command is 'waitforexitandrun /home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setSLRReap - No SLR provided from command line, attempting to fetch required SLR from current compatibility tool's 'toolmanifest.vdf'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getRequireToolAppidPath - Found tool manifest at '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/toolmanifest.vdf', attempting to get 'require_tool_appid' value...
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getRequireToolAppidPath - Got 'require_tool_appid' from '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/toolmanifest.vdf' ('1628350') - Returning path to tool
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getGameDir - Found matching App Manifest file for presumed entered AppID '1628350' - Manifest file is '/home/shota/.local/share/Steam/steamapps/appmanifest_1628350.acf'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setSLRReap - '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64' exists - Path gotten from specified AppID looks valid
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setSLRReap - Building Steam Linux Runtime command for Proton game
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setSLRReap - Adding SLR '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64/_v2-entry-point --verb=waitforexitandrun --' to the launch command
+Wed Jul 30 07:13:28 PM JST 2025 INFO - gameArgs - Game doesn't use any command line arguments
+Wed Jul 30 07:13:28 PM JST 2025 INFO - launchSteamGame - Preparing proton command
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Wed Jul 30 07:13:28 PM JST 2025 INFO - delEmptyFile - Removing empty file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getProtPathFromCSV - Creating '/dev/shm/steamtinkerlaunch/ProtonCSV.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Initially creating an array with available Proton versions
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in STEAMCOMPATOOLS '/home/shota/.local/share/Steam/compatibilitytools.d'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Found proton directory: '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - fillProtonCSV - '"GE-Proton10-10";"/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton"' is already in the Proton array
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - getAvailableProtonVersions - Directory SYSSTEAMCOMPATOOLS '/usr/share/steam/compatibilitytools.d' not found - skipping
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in additional SteamLibrary Paths
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Adding Proton versions found in CUSTOMPROTONLIST '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Checking line '' in '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - getAvailableProtonVersions - Removing invalid line '' from '/home/shota/.config/steamtinkerlaunch/protonlist.txt'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton'
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - setRunProtonFromUseProton - RUNPROTON '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton' hasn't changed
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - unSymlink - Unsymlinking is not enabled
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setProtonCmd - Prepending Proton 'GE-Proton10-10' (='/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton') to the command line '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setProtonCmd - UPDATED game start command is: /home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe
+Wed Jul 30 07:13:28 PM JST 2025 INFO - setProtonCmd - Starting 'DARK SOULS III (374320)' with Proton: 'GE-Proton10-10'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - launchSteamGame - Original incoming start command: 'waitforexitandrun /home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - launchSteamGame - Final outgoing start command: '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64/_v2-entry-point --verb=waitforexitandrun -- /home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton waitforexitandrun /home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/meta/id/general/374320.conf' START
+Wed Jul 30 07:13:28 PM JST 2025 INFO - loadCfg - '/home/shota/.config/steamtinkerlaunch/meta/id/general/374320.conf' STOP
+Wed Jul 30 07:13:28 PM JST 2025 INFO - startGame - Getting the Game Window name:
+Wed Jul 30 07:13:28 PM JST 2025 SKIP - getGameWindowName - Already have the gamewindow name: 'DARK SOULS III' - skipping
+Wed Jul 30 07:13:28 PM JST 2025 INFO - startGame - Full start command is '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64/_v2-entry-point --verb=waitforexitandrun -- /home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton waitforexitandrun /home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - startGame - Rebuilding STEAM_COMPAT_TOOL_PATHS variable:
+Wed Jul 30 07:13:28 PM JST 2025 INFO - startGame - Adding RUNPROTON '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - startGame - Adding '' because USESLR is enabled
+Wed Jul 30 07:13:28 PM JST 2025 INFO - startGame - Result: Set STEAM_COMPAT_TOOL_PATHS from '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64:/home/shota/.local/share/Steam/steamapps/common/Steamworks Shared:/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier' to '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10:'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: 'waitforexitandrun /home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - startGame - ## STL LAUNCH COMMAND: '/home/shota/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper-arm64/_v2-entry-point --verb=waitforexitandrun -- /home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/proton waitforexitandrun /home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe'
+Wed Jul 30 07:13:28 PM JST 2025 INFO - startGame - ## GAMESTART HERE ###
+Wed Jul 30 07:13:28 PM JST 2025 INFO - restoreOrgVars - Restoring previously cleared Variables
+Wed Jul 30 07:13:55 PM JST 2025 INFO - startGame - Symlink '/home/shota/.config/steamtinkerlaunch/logs/gamelaunch/title/DARK SOULS III.log' already exists
+Wed Jul 30 07:13:55 PM JST 2025 ERROR - startGame - Could not determine pid of '/home/shota/.local/share/Steam/compatibilitytools.d/GE-Proton10-10/files/bin/wineserver'
+Wed Jul 30 07:13:55 PM JST 2025 INFO - startGame - ## GAMESTOP after '27' seconds playtime
+Wed Jul 30 07:13:55 PM JST 2025 STOP - ######### SteamTinkerLaunch v12.12 #########
+Wed Jul 30 07:13:55 PM JST 2025 STOP - ######### CLEANUP #########
+Wed Jul 30 07:13:55 PM JST 2025 INFO - closeSTL - closing STL
+Wed Jul 30 07:13:55 PM JST 2025 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/shota/.config/steamtinkerlaunch/default_template.conf'
+Wed Jul 30 07:13:55 PM JST 2025 INFO - updateConfigEntry - Option 'CUSTOMCMD' is updated with the new value 'echo' in config 'default_template.conf'
+Wed Jul 30 07:13:55 PM JST 2025 INFO - closeSTL - Creating '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Wed Jul 30 07:13:55 PM JST 2025 INFO - checkPlayTime - The game stopped after '27' seconds - opening CrashGuess Requester
+Wed Jul 30 07:13:55 PM JST 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/shota/.config/steamtinkerlaunch/games/appinfo/374320.bin'
+Wed Jul 30 07:13:55 PM JST 2025 INFO - getRes - Detected screen resolution '2560x1440'
+Wed Jul 30 07:13:55 PM JST 2025 INFO - pollWinRes - Creating initial '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/374320/SteamTinkerLaunch-CrashGuess.conf' with unused default values
+Wed Jul 30 07:13:55 PM JST 2025 INFO - updateConfigEntry - 'COLCOUNT' option missing in config 'SteamTinkerLaunch-CrashGuess.conf' - adding a new line
+Wed Jul 30 07:13:55 PM JST 2025 INFO - updateWinRes - Starting resolution-poll for '/home/shota/.config/steamtinkerlaunch/guicfgs/2560x1440/374320/SteamTinkerLaunch-CrashGuess.conf' with incoming '1920x1080'
+Wed Jul 30 07:13:55 PM JST 2025 INFO - setShowPic - Determining game picture
+Wed Jul 30 07:13:55 PM JST 2025 INFO - setShowPic - Using '/home/shota/.config/steamtinkerlaunch/games/header/374320.jpg' as game picture
+Wed Jul 30 07:13:55 PM JST 2025 WAIT - updateWinRes - steamtinkerlaunch is just closing - leaving loop
+Wed Jul 30 07:13:55 PM JST 2025 INFO - updateWinRes - Window 'SteamTinkerLaunch-CrashGuess' is running - polling the resolution
+Wed Jul 30 07:13:55 PM JST 2025 INFO - updateWinRes - The Window 'SteamTinkerLaunch-CrashGuess' was closed - the resolution didn't change - nothing to do
+Wed Jul 30 07:14:09 PM JST 2025 SKIP - checkPlayTime - Selected 'NO' - Exiting regularly
+Wed Jul 30 07:14:09 PM JST 2025 INFO - closeSTL - Game 'DARK SOULS III (374320)' exited - cleaning up custom processes if necessary
+Wed Jul 30 07:14:09 PM JST 2025 INFO - closeTrayIcon - Closing TrayIcon '11076'
+Wed Jul 30 07:14:10 PM JST 2025 INFO - closeSTL - Removing '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+Wed Jul 30 07:14:10 PM JST 2025 STOP - ######### closeSTL SteamTinkerLaunch v12.12 #########
+Wed Jul 30 07:14:10 PM JST 2025 INFO - writeLastRun - Recreating /home/shota/.config/steamtinkerlaunch/logs/steamtinkerlaunch/lastrun.txt
+Wed Jul 30 07:14:10 PM JST 2025 INFO - storeMetaData - Saving metadata for game 'DARK SOULS III (374320)'
+Wed Jul 30 07:14:10 PM JST 2025 INFO - getArch - Architecture for '/home/shota/.local/share/Steam/steamapps/common/DARK SOULS III/Game/DarkSoulsIII.exe' is 64bit
+Wed Jul 30 07:14:10 PM JST 2025 INFO - storeMetaData - Set symlink from '/home/shota/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_374320.vdf' to '/home/shota/.config/steamtinkerlaunch/meta/eval/title/evaluatorscript_DARK SOULS III.vdf'
