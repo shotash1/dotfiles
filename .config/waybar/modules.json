@@ -2,7 +2,7 @@
     "custom/arch": {
         "format": "󰣇",
         "tooltip": false,
-	"on-click": "wofi --show drun"
+	"on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun"
     },
     "wlr/taskbar": {
         "format": "{app_id}",
