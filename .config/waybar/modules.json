@@ -6,7 +6,7 @@
     },
     "wlr/taskbar": {
         "format": "{icon}",
-	"icon-size": "{30px}",
+	"icon-size": 30,
         "on-click":"minimize-raise"
     },
     "network": {
