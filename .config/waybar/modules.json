@@ -5,7 +5,7 @@
 	"on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun"
     },
     "wlr/taskbar": {
-        "format": "{app_id}",
+        "format": "{icon}",
         "on-click":"minimize-raise"
     },
     "network": {
