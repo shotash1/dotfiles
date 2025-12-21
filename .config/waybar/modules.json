@@ -38,8 +38,11 @@
         "on-click": "qpwgraph",
         "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
         "scroll-step": 5
-}
-
+    } ,
+    "tray": {
+	"icon-size": 20,
+	"spacing": 5
+    }	
 
 
 }
