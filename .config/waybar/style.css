@@ -16,25 +16,12 @@ window#waybar {
 }
 
 #wlr-taskbar,
-#custom-power,
 #clock,
-#battery,
 #cpu,
 #memory,
-#disk,
-#temperature,
-#backlight,
 #network,
-#pulseaudio,
 #wireplumber,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#power-profiles-daemon,
-#language,
-#mpd {
+#tray {
     padding: 0 10px;
 
 }
@@ -42,11 +29,7 @@ window#waybar {
 
 
 #custom-arch {
-    font-size: 32px;
-    transition: color .5s;
-    color: #1793d1;
-}
-#custom-arch:hover {
+    font-size: 32px; 
     color: #1793d1;
 }
 
