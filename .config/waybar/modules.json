@@ -1,11 +1,12 @@
 {
     "custom/arch": {
-        "format": "󰣇",
+        "format": " 󰣇 ",
         "tooltip": false,
 	"on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun"
     },
     "wlr/taskbar": {
         "format": "{icon}",
+	"icon-size": "{30px}",
         "on-click":"minimize-raise"
     },
     "network": {
