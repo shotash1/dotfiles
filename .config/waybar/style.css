@@ -1,13 +1,12 @@
 * {
     font-size: 20px;
-    font-family: feather;
-    transition: background-color .3s ease-out;
+   
 }
 
 window#waybar {
     background: rgba(24, 24, 24, 0.6);
     color: #ffffff;
-    transition: background-color .5s;
+   
 }
 
 .modules-left,
@@ -37,7 +36,7 @@ window#waybar {
 #language,
 #mpd {
     padding: 0 10px;
-    border-radius: 15px;
+
 }
 
 #wlr-taskbar:hover,
