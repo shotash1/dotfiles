@@ -2,3 +2,4 @@ font=roboto
 background-color=#18181899
 border-color=#ffffff
 anchor=bottom-right
+layer=overlay
