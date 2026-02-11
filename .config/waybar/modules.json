@@ -11,10 +11,10 @@
     },
     "network": {
         "format-wifi": "   {essid} ({signalStrength}%)",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ",
+        "format-ethernet": "   {ipaddr}/{cidr}",
+        "tooltip-format": "   {ifname} via {gwaddr}",
+        "format-linked": "   {ifname} (No IP)",
+        "format-disconnected": "   Disconnected",
 	"on-click": "nm-connection-editor"
 	 
     },
@@ -27,7 +27,8 @@
 	"tooltip": true
     },
     "clock": {
-        "format": "{:%H:%M | %e %B} ",
+	"interval": 1,
+        "format": "{:%H:%M:%S | %e %B} ",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     } ,   
