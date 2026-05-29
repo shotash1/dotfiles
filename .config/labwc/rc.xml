@@ -9,7 +9,7 @@
 
   <theme>
     <name></name>
-    <cornerRadius>8</cornerRadius>
+    <cornerRadius>0</cornerRadius>
     <font name="sans" size="10" />
   </theme>
 
@@ -44,5 +44,9 @@
       </mousebind>
     </context>
   </mouse>
+
+  <core>
+	  <hdr>yes</hdr>
+  </core>	
 
 </labwc_config>
