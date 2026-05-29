@@ -1,2 +1,5 @@
 XKB_DEFAULT_LAYOUT=jp
 QT_QPA_PLATFORM=wayland
+WLR_RENDERER=vulkan
+
+
