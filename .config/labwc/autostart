@@ -1,7 +1,7 @@
 # Example autostart file
 
 # Set background color.
-swaybg -i ~/Pictures/2878921.jpg >/dev/null 2>&1 &
+swaybg -i ~/Pictures/3.jpg >/dev/null 2>&1 &
 
 
 # Launch a panel such as yambar or waybar.
@@ -14,3 +14,4 @@ mako >/dev/null 2>&1 &
 
 wl-paste --watch cliphist store &
 fcitx5 &
+udiskie &
